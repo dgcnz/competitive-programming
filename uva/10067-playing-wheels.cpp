@@ -1,125 +1,129 @@
-#include <cmath>
+#include <algorithm>
+#include <cstdlib>
+#include <cstring>
 #include <iostream>
 #include <queue>
-#include <set>
 #include <vector>
 
 using namespace std;
 using vi = vector<int>;
 
-int      initial, target;
-set<int> prohibited;
+const int NMAX = 10e4;
 
-vi moves = {-1000, 1000, -100, 100, -10, 10, -1, 1};
-
-int getn(int i, int n) { return (n / (int)pow(10, 3 - i)) % 10; }
-int setn(int i, int n, int x)
+struct state
 {
-    int l = 0, r = 0, ans = 0;
+    int a[4];
+    int depth;
 
-    ans = (x * (int)pow(10, 3 - i));
+    state(vi v) { copy(v.begin(), v.end(), a); }
+    state(void) {}
 
-    if (i > 0)
-        l = (n / (int)pow(10, 3 - (i - 1))) * (int)pow(10, 3 - (i - 1));
-    if (i < 3)
-        r = (n % (int)pow(10, 3 - i));
+    int index(void) const
+    {
+        int ans = 0, pten = 1;
+        for (int i = 0; i < 4; ++i)
+        {
+            ans += a[i] * pten;
+            pten *= 10;
+        }
+        return ans;
+    }
+    void cin_init(void)
+    {
+        for (int i = 0; i < 4; ++i)
+            cin >> a[i];
+    }
 
-    return l + ans + r;
+    bool operator==(const state &s2) const
+    {
+        for (int i = 0; i < 4; ++i)
+        {
+            if (a[i] != s2.a[i])
+                return false;
+        }
+        return true;
+    }
+};
+
+bool visited[NMAX] = {false};
+
+int moves[8][4] = {{1, 0, 0, 0},
+                   {-1, 0, 0, 0},
+                   {0, 1, 0, 0},
+                   {0, -1, 0, 0},
+                   {0, 0, 1, 0},
+                   {0, 0, -1, 0},
+                   {0, 0, 0, 1},
+                   {0, 0, 0, -1}};
+
+int mod(int x) { return ((x % 10) + 10) % 10; }
+
+vector<state> next_states(state s)
+{
+    state ans[8];
+
+    for (int i = 0; i < 8; ++i)
+    {
+        ans[i].depth = s.depth + 1;
+        for (int j = 0; j < 4; ++j)
+            ans[i].a[j] = mod(s.a[j] + moves[i][j]);
+    }
+    return vector<state>(ans, ans + 8);
 }
 
-int concat(vi numbers)
+int bfs(state start, state target)
 {
-    int ans = 0;
+    state        current;
+    queue<state> q;
 
-    setn(0, ans, numbers[0]);
-    setn(1, ans, numbers[1]);
-    setn(2, ans, numbers[2]);
-    setn(3, ans, numbers[3]);
-
-    return ans;
-}
-
-int mod(int a, int b) { return (b + (a % b)) % b; }
-
-int add(int x, int y)
-{
-    for (int i = 0; i < 4; ++i)
-        setn(i, x, mod(getn(x, i) + getn(y, i), 10));
-
-    return x;
-}
-
-int compute(int x, int y)
-{
-    int ans = 0;
-
-    for (int i = 0; i < 4; ++i)
-        ans += abs(getn(i, x) - getn(i, y));
-
-    return ans;
-}
-
-int bfs(int start)
-{
-    bool       visited[10000] = {false};
-    queue<int> q;
+    if (visited[start.index()])
+        return -1;
 
     q.push(start);
-    visited[start] = true;
 
-    while (q.size())
+    while (not q.empty())
     {
-        int x = q.front();
+        current = q.front();
         q.pop();
 
-        for (auto move : moves)
+        if (current == target)
+            return current.depth;
+
+        for (state next : next_states(current))
         {
-            int y = add(x, move);
-            if (y == target)
+            if (not visited[next.index()])
             {
-                return compute(target, initial);
-            }
-            if (not visited[y] and prohibited.find(y) == prohibited.end())
-            {
-                visited[y] = true;
-                q.push(y);
+                visited[next.index()] = true;
+                q.push(next);
             }
         }
     }
-
     return -1;
 }
 
 int main(void)
 {
-    int t, m;
-    vi  temp(4);
-
+    int   t, n;
+    state start, target, forbidden;
     cin >> t;
 
     while (t--)
     {
-        for (int i = 0; i < 4; ++i)
-            cin >> temp[i];
-        initial = concat(temp);
+        memset(visited, false, NMAX);
+        start.cin_init();
+        target.cin_init();
 
-        for (int i = 0; i < 4; ++i)
-            cin >> temp[i];
+        cin >> n;
 
-        target = concat(temp);
-
-        cin >> m;
-        while (m--)
+        while (n--)
         {
-            for (int i = 0; i < 4; ++i)
-                cin >> temp[i];
-            prohibited.insert(concat(temp));
+            forbidden.cin_init();
+            visited[forbidden.index()] = true;
         }
 
-        cout << bfs(initial) << endl;
+        start.depth = 0;
 
-        prohibited = set<int>();
+        cout << bfs(start, target) << endl;
     }
-
     return 0;
 }
