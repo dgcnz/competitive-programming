@@ -134,7 +134,6 @@ int main(void)
 
         if (type == 1)
             cout << query(1, 0, n - 1, v).second + 1 << endl;
-
         else
         {
             update(1, 0, n - 1, visit_time[v], visit_time[v] + sz[v] - 1, v);
