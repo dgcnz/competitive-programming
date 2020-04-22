@@ -10,10 +10,8 @@ string lower(string s)
     string ans = s;
 
     for (int i = 0, len = s.size(); i < len; ++i)
-    {
         if (is_upper(s[i]))
             ans[i] += ('a' - 'A');
-    }
 
     return ans;
 }
