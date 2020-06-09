@@ -17,7 +17,7 @@ int find_set(int v)
 {
     if (v == parent[v])
         return v;
-    return find_set(parent[v]);
+    return (parent[v] = find_set(parent[v])); // path compression
 }
 
 void union_sets(int a, int b)
@@ -26,7 +26,7 @@ void union_sets(int a, int b)
     b = find_set(b);
     if (a != b)
     {
-        if (ssize[a] < ssize[b])
+        if (ssize[a] < ssize[b]) // union by size
             swap(a, b);
         parent[b] = a;
         ssize[a] += ssize[b];
