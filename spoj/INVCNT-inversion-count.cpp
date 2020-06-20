@@ -4,7 +4,7 @@ using namespace std;
 using vi = vector<int>;
 using ll = long long;
 
-const int amax = 2e5 + 11;
+const int amax = 1e7 + 11;
 
 struct fenwick
 {
