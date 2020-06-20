@@ -45,7 +45,7 @@ void sieve(ll upperbound) // fi primes until upperbound inclusive
     is_prime.set(); // set all bits to true
     is_prime[0] = is_prime[1] = 0;
 
-    for (ll i = 2; i * i <= sieve_size; i++)
+    for (ll i = 2; i <= sieve_size; i++)
         if (is_prime[i])
         {
             for (ll j = i * i; j <= sieve_size; j += i)
