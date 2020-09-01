@@ -1,0 +1,62 @@
+#include <bits/stdc++.h>
+#define all(c) c.begin(), c.end()
+#define isz(c) (int)c.size();
+
+using namespace std;
+using ll = long long;
+using vi = vector<int>;
+
+int const NMAX = 2e5 + 11;
+
+int      n, m;
+vi       g[NMAX];
+set<int> edges;
+
+int dfs(int u, vector<bool> &visited)
+{
+    int maxv   = u;
+    visited[u] = true;
+    for (auto v : g[u])
+        if (not visited[v])
+            maxv = max(maxv, dfs(v, visited));
+    return maxv;
+}
+
+int solve(void)
+{
+    int          ans = 0;
+    vector<bool> visited(n + 1, false);
+    while (not edges.empty())
+    {
+        int u = *edges.begin(), v = dfs(u, visited);
+        for (int i = u; i <= v; ++i)
+        {
+            if (not visited[i])
+            {
+                g[u].push_back(i);
+                g[i].push_back(u);
+                v = max(v, dfs(i, visited));
+                ++ans;
+            }
+            edges.erase(i);
+        }
+    }
+    return ans;
+}
+
+int main(void)
+{
+    cin >> n >> m;
+    for (int i = 0; i < m; ++i)
+    {
+        int u, v;
+        cin >> u >> v;
+        g[u].push_back(v);
+        g[v].push_back(u);
+        edges.insert(u), edges.insert(v);
+    }
+
+    cout << solve() << endl;
+
+    return 0;
+}
