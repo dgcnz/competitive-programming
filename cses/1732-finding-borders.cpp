@@ -30,7 +30,7 @@ void solve(string s)
     while (pi[i])
     {
         ans.push_back(pi[i]);
-        i = pi[i - 1];
+        i = pi[i] - 1;
     }
 
     for_each(ans.rbegin(), ans.rend(), [](int x) { cout << x << " "; });
