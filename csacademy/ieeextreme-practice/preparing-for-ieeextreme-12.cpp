@@ -9,12 +9,6 @@
 //      dp(i, mask) = min(dp(i - 1, mask), dp(i - 1, mask & ~book_mask(i)) +
 //      time(i)) // DOESNT WORK
 //
-//
-//      dp(i, mask) = min(
-//                  dp(i - 1, mask),
-//                  {dp(i - 1, mask2) + time(i) | mask2 <- [0, 2^nbooks], if
-//                                          (mask2 | book_mask(i)) == mask})
-//
 //      To understand why that doesn't work, try to think of what happens when
 //      two or more books cover topics in common:
 //
