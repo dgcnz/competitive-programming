@@ -1,35 +1,45 @@
 #include <bits/stdc++.h>
+#define all(c) c.begin(), c.end()
+#define isz(c) (int)c.size()
+
 using namespace std;
 
 using ll = long long;
+using vi = vector<int>;
+
+ll solve(vi a)
+{
+    int          n   = isz(a);
+    ll           ans = 0;
+    map<ll, int> sum_cnt;
+
+    sum_cnt[0] = 1;
+
+    ll ps = 0;
+    for (int i = 0; i < n; ++i)
+    {
+        ps += a[i];
+        ans += sum_cnt[ps];
+        ++sum_cnt[ps];
+    }
+
+    return ans;
+}
 
 int main(void)
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    int t;
 
-    int           t, n, s;
-    ll            ans;
-    string        a;
-    map<int, int> mp;
     cin >> t;
-
     while (t--)
     {
-        cin >> n;
-        cin >> a;
+        int    n;
+        string s;
+        cin >> n >> s;
 
-        s = 0, ans = 0;
-        mp.clear();
-
-        mp[0]++;
-        for (int i = 0; i < n; ++i)
-        {
-            s += a[i] - '0';
-            ans += mp[s - (i + 1)];
-            ++mp[s - (i + 1)];
-        }
-        cout << ans << endl;
+        vi a(n);
+        transform(all(s), a.begin(), [](char c) { return c - '0' - 1; });
+        cout << solve(a) << endl;
     }
     return 0;
 }
