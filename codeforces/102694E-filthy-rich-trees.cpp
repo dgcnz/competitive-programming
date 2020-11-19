@@ -1,5 +1,5 @@
 /**
- * \addtogroup
+ * \addtogroup metadata
  * @{
  *
  * @title Filthy Rich Trees
