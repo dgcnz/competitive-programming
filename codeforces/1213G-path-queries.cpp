@@ -1,4 +1,7 @@
 /**
+ * \addtogroup
+ * @{
+ *
  * @title Path Queries
  * @url https://codeforces.com/contest/1213/problem/G
  * @status AC
@@ -13,6 +16,8 @@
  * answer.
  * @time_complexity O(m*log(n))
  * @memory_complexity O(n)
+ *
+ * @}
  */
 
 #ifdef DBG_MACRO_NO_WARNING

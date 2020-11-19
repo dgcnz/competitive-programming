@@ -1,4 +1,7 @@
 /**
+ * \addtogroup
+ * @{
+ *
  * @title Filthy Rich Trees
  * @url https://codeforces.com/gym/102694/problem/E
  * @status AC
@@ -12,6 +15,8 @@
  * multiplication of subtrees as log addition.
  * @time_complexity O(q*log(n))
  * @memory_complexity O(n)
+ *
+ * @}
  */
 
 #ifdef DBG_MACRO_NO_WARNING
