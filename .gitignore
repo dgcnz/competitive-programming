@@ -10,3 +10,5 @@ google/
 project-euler/
 cpc/
 experimental.cpp
+env/
+.vim/

@@ -1,9 +1,34 @@
+/** @file
+ *
+ * @title               [name]
+ * @url                 [url]
+ * @tags                [tag1], [tag2], ...
+ *
+ * @status              [AC/TLE/MLE]
+ * @score               [0-5]
+ * @difficulty          [0-5]
+ * @editorial           [yes/no]
+ *
+ * @reading_time        [minutes]
+ * @thinking_time       [minutes]
+ * @coding_time         [minutes]
+ * @debug_time          [minutes]
+ *
+ * @time_complexity     [O(f(n)))
+ * @memory_complexity   [O(f(n))]
+ * @idea
+ *      [
+ *      ...
+ *      ]
+ * @endidea
+ */
+
 #ifdef DBG_MACRO_NO_WARNING
 #include <dbg.h>
 #endif
 #include <bits/stdc++.h>
-#define all(c) c.begin(), c.end()
-#define isz(c) (int)c.size()
+#define all(c) begin(c), end(c)
+#define isz(c) (int)(c).size()
 
 using namespace std;
 using ll = long long;

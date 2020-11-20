@@ -1,3 +1,4 @@
+#include <numeric>
 #ifdef DBG_MACRO_NO_WARNING
 #include <dbg.h>
 #endif
@@ -14,8 +15,6 @@ struct FenwickTree2D
 {
     vector<vector<int>> bit;
     int                 n, m;
-
-    // init(...) { ... }
 
     FenwickTree2D(vector<vector<int>> a)
     {
@@ -72,7 +71,6 @@ int main(void)
             a[row][col] = ch == '*';
         }
     }
-
     FenwickTree2D tree(a);
     while (q--)
     {
