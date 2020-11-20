@@ -1,13 +1,13 @@
-/**
- * \file 1213G-path-queries.cpp
+/** @file
  *
  * @title Path Queries
  * @url https://codeforces.com/contest/1213/problem/G
  * @tags dsu, trees, sorting, contribution_method, offline, binary_search
  *
  * @status AC
- * @score 9
- * @difficulty 7
+ * @score 4
+ * @difficulty 3
+ * @editorial No
  *
  * @reading_time 5
  * @thinking_time 15
@@ -15,9 +15,11 @@
  *
  * @time_complexity O(m*log(n))
  * @memory_complexity O(n)
- * @idea Sort edges increasingly and add them to a dsu in chunks of equal
+ * @idea
+ * Sort edges increasingly and add them to a dsu in chunks of equal
  * weight. Compute answer for each weight. For queries, binary search the
  * answer.
+ * @endidea
  */
 
 #ifdef DBG_MACRO_NO_WARNING

@@ -1,13 +1,13 @@
-/**
- * \file 102694E-filthy-rich-trees.cpp
+/** @file
  *
  * @title Filthy Rich Trees
  * @url https://codeforces.com/gym/102694/problem/E
  * @tags segment_tree, euler_tour_technique
  *
  * @status AC
- * @score 9
- * @difficulty 8
+ * @score 5
+ * @difficulty 4
+ * @editorial No
  *
  * @reading_time 5
  * @thinking_time 10
@@ -15,8 +15,10 @@
  *
  * @time_complexity O(q*log(n))
  * @memory_complexity O(n)
- * @idea Flattening tree with ETT. Build Segment Tree that stores the
- * multiplication of subtrees as log addition.
+ * @idea
+ *      Flattening tree with ETT. Build Segment Tree that stores the
+ *      multiplication of subtrees as log addition.
+ * @endidea
  */
 
 #ifdef DBG_MACRO_NO_WARNING
