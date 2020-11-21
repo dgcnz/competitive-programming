@@ -7,16 +7,14 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-# TO_PARSE = ['../codeforces', '../atcoder', '../cses', '../uva']
-TO_PARSE = ['../codeforces/102694E-filthy-rich-trees.cpp']
+TO_PARSE = ['../codeforces', '../atcoder', '../cses', '../uva']
+# TO_PARSE = ['../codeforces/102694E-filthy-rich-trees.cpp']
 
-TEMPLATE = Template("""
----
+TEMPLATE = Template("""---
 layout: post
 title: $title
 url: $url
 tags: $tags
-
 time_complexity: $time_complexity
 memory_complexity: $memory_complexity
 ---
@@ -24,7 +22,9 @@ memory_complexity: $memory_complexity
 $idea
 
 ```cpp
+{% raw %}
 $source_code
+{% endraw %}
 ```
 """)
 
