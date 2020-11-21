@@ -8,12 +8,10 @@ time_complexity: None
 memory_complexity: O(n)
 ---
 
-{% raw %}
 General idea:
 For a block of size i, you have 10 ways to choose it.
 The two neighboring digits have 9 ways each to be chosen.
 The remaining digits have 10^{n - i - 2} ways to be chosen.
-{% endraw %}
 
 ```cpp
 {% raw %}

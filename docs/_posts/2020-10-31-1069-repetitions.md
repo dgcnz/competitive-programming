@@ -8,9 +8,7 @@ time_complexity: None
 memory_complexity: None
 ---
 
-{% raw %}
 None
-{% endraw %}
 
 ```cpp
 {% raw %}

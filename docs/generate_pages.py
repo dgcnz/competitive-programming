@@ -20,9 +20,7 @@ time_complexity: $time_complexity
 memory_complexity: $memory_complexity
 ---
 
-{% raw %}
 $idea
-{% endraw %}
 
 ```cpp
 {% raw %}

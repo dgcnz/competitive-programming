@@ -8,9 +8,7 @@ time_complexity: O(q*log(n))
 memory_complexity: O(n)
 ---
 
-{% raw %}
 Flattening tree with ETT. Build Segment Tree that stores the multiplication of subtrees as log addition.
-{% endraw %}
 
 ```cpp
 {% raw %}
