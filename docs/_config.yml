@@ -8,6 +8,7 @@ url:                 https://dgcnz.github.io
 baseurl:             /competitive-programming
 paginate:            5
 permalink:           pretty
+exclude:             ['xml/', 'Doxyfile', 'generate_pages.py', 'utils/']
 
 # About/contact
 author:

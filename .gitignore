@@ -13,3 +13,6 @@ experimental.cpp
 env/
 .vim/
 docs/.jekyll-cache/
+docs/xml/
+docs/__pycache__/
+docs/env/
