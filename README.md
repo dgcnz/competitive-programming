@@ -1,6 +1,6 @@
 # Solutions to Competitive Programming problems
 
-[![Codeforces](https://img.shields.io/badge/Codeforces-271-yellow.svg)](https://shields.io/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-281-yellow.svg)](https://shields.io/)
 [![AtCoder](https://img.shields.io/badge/AtCoder-88-black.svg)](https://shields.io/)
 [![CSES](https://img.shields.io/badge/CSES-109-grey.svg)](https://shields.io/)
 [![SPOJ](https://img.shields.io/badge/SPOJ-21-blue.svg)](https://shields.io/)
