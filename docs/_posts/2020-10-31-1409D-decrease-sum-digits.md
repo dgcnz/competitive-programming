@@ -3,7 +3,6 @@ layout: post
 title: 1409D Decrease Sum Digits
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int dsum(ll n)
@@ -62,4 +62,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

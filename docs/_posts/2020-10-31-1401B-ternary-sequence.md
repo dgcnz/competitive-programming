@@ -3,7 +3,6 @@ layout: post
 title: 1401B Ternary Sequence
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 using ds = array<array<ll, 3>, 2>;
@@ -70,4 +70,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

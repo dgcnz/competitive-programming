@@ -3,7 +3,6 @@ layout: post
 title: Dp_O Matching
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 const int NMAX = 21 + 2;
@@ -50,4 +50,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

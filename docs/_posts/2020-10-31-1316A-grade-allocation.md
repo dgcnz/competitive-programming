@@ -3,7 +3,6 @@ layout: post
 title: 1316A Grade Allocation
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 ll n, m;
@@ -36,4 +36,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

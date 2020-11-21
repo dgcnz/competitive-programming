@@ -3,7 +3,6 @@ layout: post
 title: 1133D Zero Quantity Maximization
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using lld = long double;
 using mdi = map<lld, int>;
@@ -47,4 +47,5 @@ int main(void)
          << endl;
 }
 
+{% endraw %}
 ```

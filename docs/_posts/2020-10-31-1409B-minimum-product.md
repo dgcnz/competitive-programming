@@ -3,7 +3,6 @@ layout: post
 title: 1409B Minimum Product
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 pair<ll, ll> op(ll a, ll x, ll n)
@@ -42,4 +42,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

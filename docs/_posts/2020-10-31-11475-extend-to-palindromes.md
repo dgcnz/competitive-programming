@@ -3,7 +3,6 @@ layout: post
 title: 11475 Extend To Palindromes
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 1e5 + 11;
 const int INF = 1e7;
@@ -84,4 +84,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

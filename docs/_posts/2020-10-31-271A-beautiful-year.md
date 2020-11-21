@@ -3,7 +3,6 @@ layout: post
 title: 271A Beautiful Year
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int digit_at(int number, int pos) {
   return number / (1000 / (int)pow(10, pos)) % 10;
@@ -38,4 +38,5 @@ int main(void) {
   return 0;
 }
 
+{% endraw %}
 ```

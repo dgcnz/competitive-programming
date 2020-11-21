@@ -3,7 +3,6 @@ layout: post
 title: 1393C Pinkie Pie Eats Patty Cakes
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ii = pair<int, int>;
 using vi = vector<int>;
@@ -46,4 +46,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

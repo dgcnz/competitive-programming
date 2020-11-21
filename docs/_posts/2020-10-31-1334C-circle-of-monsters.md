@@ -3,7 +3,6 @@ layout: post
 title: 1334C Circle Of Monsters
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 const int NMAX = 3 * 1e5 + 11;
@@ -46,4 +46,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

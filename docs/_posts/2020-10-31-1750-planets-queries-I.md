@@ -3,7 +3,6 @@ layout: post
 title: 1750 Planets Queries I
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 const int NMAX = 2e5 + 11;
@@ -49,4 +49,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

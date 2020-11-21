@@ -3,7 +3,6 @@ layout: post
 title: Abc149_D Prediction And Reststriction
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int const M = 3;
@@ -71,4 +71,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

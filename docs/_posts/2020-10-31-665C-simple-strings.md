@@ -3,7 +3,6 @@ layout: post
 title: 665C Simple Strings
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 string s;
 char anything_but(char c, char d)
@@ -41,4 +41,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

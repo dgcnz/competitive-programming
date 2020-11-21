@@ -3,7 +3,6 @@ layout: post
 title: 1321A Contest Robots
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 bool r[110];
 bool b[110];
@@ -37,4 +37,5 @@ int main(void)
     cout << ans << endl;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 1076 Sliding Median
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace __gnu_pbds;
 using namespace std;
 using ll = long long;
@@ -51,4 +51,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

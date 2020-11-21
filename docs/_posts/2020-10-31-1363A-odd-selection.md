@@ -3,7 +3,6 @@ layout: post
 title: 1363A Odd Selection
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 bool solve(int x, int evens, int odds)
 {
@@ -41,4 +41,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

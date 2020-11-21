@@ -3,7 +3,6 @@ layout: post
 title: 461A Appleman And Toastman
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int n;
@@ -36,4 +36,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

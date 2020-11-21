@@ -3,7 +3,6 @@ layout: post
 title: 1328B K Th Beautiful String
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int binary_search(int low, int high, int target)
@@ -50,4 +50,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

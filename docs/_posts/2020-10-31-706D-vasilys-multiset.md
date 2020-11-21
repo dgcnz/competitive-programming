@@ -3,7 +3,6 @@ layout: post
 title: 706D Vasilys Multiset
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int CMAX = 2;
 const int TMAX = 30;
@@ -95,4 +95,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

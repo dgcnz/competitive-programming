@@ -3,7 +3,6 @@ layout: post
 title: 1366A Shovels Swords
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int solve(int a, int b)
 {
@@ -42,4 +42,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

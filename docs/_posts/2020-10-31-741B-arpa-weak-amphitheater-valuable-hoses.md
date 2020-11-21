@@ -3,7 +3,6 @@ layout: post
 title: 741B Arpa Weak Amphitheater Valuable Hoses
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int const NMAX = 1e3 + 11;
@@ -77,4 +77,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

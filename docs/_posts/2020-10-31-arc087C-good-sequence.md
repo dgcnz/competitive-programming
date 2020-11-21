@@ -3,7 +3,6 @@ layout: post
 title: Arc087C Good Sequence
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int n;
 map<int, int> counter;
@@ -38,4 +38,5 @@ int main(void)
     cout << ans << endl;
 }
 
+{% endraw %}
 ```

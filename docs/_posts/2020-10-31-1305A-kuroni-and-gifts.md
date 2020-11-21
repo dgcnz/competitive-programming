@@ -3,7 +3,6 @@ layout: post
 title: 1305A Kuroni And Gifts
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int n;
 int a[1010];
@@ -37,4 +37,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

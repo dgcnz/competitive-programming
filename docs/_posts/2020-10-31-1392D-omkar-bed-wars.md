@@ -3,7 +3,6 @@ layout: post
 title: 1392D Omkar Bed Wars
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int solve(int n, string s)
 {
@@ -55,4 +55,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

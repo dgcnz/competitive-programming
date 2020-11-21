@@ -3,7 +3,6 @@ layout: post
 title: Abc076_C Dubious Document 2
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int main(void)
@@ -60,4 +60,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 408 Uniform Generator
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int gcd(int a, int b) { return (b == 0 ? a : gcd(b, a % b)); }
 int main(void)
@@ -29,4 +29,5 @@ int main(void)
     }
 }
 
+{% endraw %}
 ```

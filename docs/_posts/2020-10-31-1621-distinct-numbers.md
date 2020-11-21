@@ -3,7 +3,6 @@ layout: post
 title: 1621 Distinct Numbers
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int main(void)
@@ -25,4 +25,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

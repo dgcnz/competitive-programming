@@ -3,7 +3,6 @@ layout: post
 title: Abc146_C Buy Integer
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int const NMAX = 1e5 + 10;
 int const PTWO = 30;
@@ -48,4 +48,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

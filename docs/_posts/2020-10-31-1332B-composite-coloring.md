@@ -3,7 +3,6 @@ layout: post
 title: 1332B Composite Coloring
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 1000 + 11;
 int ccolor;
@@ -48,4 +48,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

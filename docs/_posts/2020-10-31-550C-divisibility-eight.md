@@ -3,7 +3,6 @@ layout: post
 title: 550C Divisibility Eight
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 map<string, string> mem;
 bool is_divisible_eight(string n)
@@ -62,4 +62,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

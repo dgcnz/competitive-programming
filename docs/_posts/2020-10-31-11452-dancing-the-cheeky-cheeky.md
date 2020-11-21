@@ -3,7 +3,6 @@ layout: post
 title: 11452 Dancing The Cheeky Cheeky
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 vi prefix_function(string s)
@@ -58,4 +58,5 @@ int main()
     return 0;
 }
 
+{% endraw %}
 ```

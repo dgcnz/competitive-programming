@@ -3,7 +3,6 @@ layout: post
 title: 489C Length Sum Digits
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int clamp(int x) { return max(0, min(x, 9)); }
 int main(void)
@@ -49,4 +49,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 731A Night Museum
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 inline int ord(char c) { return c - 'a'; }
 int main(void)
@@ -27,4 +27,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

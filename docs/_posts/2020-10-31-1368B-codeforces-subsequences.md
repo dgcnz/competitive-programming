@@ -3,7 +3,6 @@ layout: post
 title: 1368B Codeforces Subsequences
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 using ll = long long;
@@ -58,4 +58,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 118B Present From Lena
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ii = pair<int, int>;
 vector<string> pat;
@@ -76,4 +76,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

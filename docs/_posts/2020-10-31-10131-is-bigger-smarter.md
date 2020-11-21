@@ -3,7 +3,6 @@ layout: post
 title: 10131 Is Bigger Smarter
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using iii = tuple<int, int, int>;
 using ii = pair<int, int>;
@@ -68,4 +68,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

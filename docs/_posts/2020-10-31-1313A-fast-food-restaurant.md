@@ -3,7 +3,6 @@ layout: post
 title: 1313A Fast Food Restaurant
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int ps[7][3] = {{0, 0, 1},
                 {0, 1, 0},
@@ -69,4 +69,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

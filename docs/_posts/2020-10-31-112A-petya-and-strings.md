@@ -3,7 +3,6 @@ layout: post
 title: 112A Petya And Strings
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 bool is_upper(char c) { return 'A' <= c and c <= 'Z'; }
 string lower(string s)
@@ -31,4 +31,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

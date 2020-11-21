@@ -3,7 +3,6 @@ layout: post
 title: 907 Winterim Backpacking Trip
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 600 + 11;
 int n, k, dist[NMAX];
@@ -59,4 +59,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

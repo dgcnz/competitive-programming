@@ -3,7 +3,6 @@ layout: post
 title: 11935 Through The Desert
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 enum event_type
 {
@@ -106,4 +106,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

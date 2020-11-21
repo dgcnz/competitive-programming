@@ -3,7 +3,6 @@ layout: post
 title: 10276 Hanoi Tower Troubles Again
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 50;
 int pegs[NMAX + 1];
@@ -61,4 +61,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

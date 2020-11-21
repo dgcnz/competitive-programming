@@ -3,7 +3,6 @@ layout: post
 title: Dpd Knapsack 1
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 const int NMAX = 1e2 + 11;
@@ -40,4 +40,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

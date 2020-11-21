@@ -3,7 +3,6 @@ layout: post
 title: 10006 Carmichael Numbers
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 const int NMAX = 1e7;
@@ -83,4 +83,5 @@ int main(void)
     }
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 1167C News Distribution
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 struct dsu
@@ -74,4 +74,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 1398D Colored Rectangles
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ms = multiset<int, greater<int>>;
 using vi = vector<int>;
@@ -53,4 +53,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

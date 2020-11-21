@@ -3,7 +3,6 @@ layout: post
 title: 1213D2 Equalizing Division
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int const INF = 1e9;
@@ -60,4 +60,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

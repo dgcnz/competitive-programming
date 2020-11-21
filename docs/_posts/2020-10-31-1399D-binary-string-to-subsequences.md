@@ -3,7 +3,6 @@ layout: post
 title: 1399D Binary String To Subsequences
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 using ii = pair<int, int>;
@@ -50,4 +50,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

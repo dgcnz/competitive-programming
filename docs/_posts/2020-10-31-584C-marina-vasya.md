@@ -3,7 +3,6 @@ layout: post
 title: 584C Marina Vasya
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int n, t;
 string s1, s2;
@@ -77,4 +77,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

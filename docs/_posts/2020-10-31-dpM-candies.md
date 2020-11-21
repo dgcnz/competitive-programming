@@ -3,7 +3,6 @@ layout: post
 title: Dpm Candies
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 1e2 + 11;
 const int KMAX = 1e5 + 11;
@@ -42,4 +42,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

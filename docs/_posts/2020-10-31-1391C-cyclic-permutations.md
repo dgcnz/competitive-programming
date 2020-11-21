@@ -3,7 +3,6 @@ layout: post
 title: 1391C Cyclic Permutations
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int const MOD = 1e9 + 7;
@@ -76,4 +76,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

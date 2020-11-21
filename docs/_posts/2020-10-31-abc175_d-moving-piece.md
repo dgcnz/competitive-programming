@@ -3,7 +3,6 @@ layout: post
 title: Abc175_D Moving Piece
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int const NMAX = 3000 + 5;
@@ -56,4 +56,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: Abc127_D Integer Cards
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ii = pair<int, int>;
 using ll = long long;
@@ -43,4 +43,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

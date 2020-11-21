@@ -3,7 +3,6 @@ layout: post
 title: 1401A Distance Axis
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int solve(int n, int k)
 {
@@ -31,4 +31,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 1360C Similar Pairs
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 50;
 int n, a[NMAX];
@@ -41,4 +41,5 @@ int main(void)
     }
 }
 
+{% endraw %}
 ```

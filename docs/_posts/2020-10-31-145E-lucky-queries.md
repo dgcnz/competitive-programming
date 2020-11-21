@@ -3,7 +3,6 @@ layout: post
 title: 145E Lucky Queries
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 struct node
 {
@@ -116,4 +116,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

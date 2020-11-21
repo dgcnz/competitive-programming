@@ -3,7 +3,6 @@ layout: post
 title: 1337B Kana Dragon Quest
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 inline void void_absorption(int &x) { x = x / 2 + 10; }
 inline void lightning_strike(int &x) { x = x - 10; }
@@ -34,4 +34,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

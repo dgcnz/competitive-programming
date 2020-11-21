@@ -3,7 +3,6 @@ layout: post
 title: 1392C Omkar Waterslide
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 int const NMAX = 2e5 + 11;
@@ -47,4 +47,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

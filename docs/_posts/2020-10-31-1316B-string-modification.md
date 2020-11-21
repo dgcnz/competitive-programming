@@ -3,7 +3,6 @@ layout: post
 title: 1316B String Modification
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int n;
 char s[5010];
@@ -53,4 +53,5 @@ int main(void)
     }
 }
 
+{% endraw %}
 ```

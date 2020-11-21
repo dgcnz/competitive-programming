@@ -3,7 +3,6 @@ layout: post
 title: 99B Help Chef Garasim
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using pii = pair<int, int>;
 const int NMAX = 1e3 + 11;
@@ -53,4 +53,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

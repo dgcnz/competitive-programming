@@ -3,7 +3,6 @@ layout: post
 title: 1334A Level Statistics
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 100 + 11;
 int n, p[NMAX], c[NMAX];
@@ -42,4 +42,5 @@ int main(void)
     }
 }
 
+{% endraw %}
 ```

@@ -3,7 +3,6 @@ layout: post
 title: 1337A Ichime Triangle
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int a, b, c, d;
 int x, y, z;
@@ -29,4 +29,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

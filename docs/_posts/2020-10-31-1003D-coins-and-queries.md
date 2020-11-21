@@ -3,7 +3,6 @@ layout: post
 title: 1003D Coins And Queries
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ii = pair<int, int>;
 using mii = map<int, int, greater<int>>;
@@ -50,4 +50,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

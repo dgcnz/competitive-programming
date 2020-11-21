@@ -3,7 +3,6 @@ layout: post
 title: Filthy Rich Trees
 url: https://codeforces.com/gym/102694/problem/E
 tags: segment_tree, euler_tour_technique
-
 time_complexity: O(q*log(n))
 memory_complexity: O(n)
 ---
@@ -11,6 +10,7 @@ memory_complexity: O(n)
 Flattening tree with ETT. Build Segment Tree that stores the multiplication of subtrees as log addition.
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 using ii = pair<int, int>;
@@ -156,4 +156,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

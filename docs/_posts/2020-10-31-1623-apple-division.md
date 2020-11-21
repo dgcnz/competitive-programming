@@ -3,7 +3,6 @@ layout: post
 title: 1623 Apple Division
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 const int NMAX = 20 + 11;
@@ -40,4 +40,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

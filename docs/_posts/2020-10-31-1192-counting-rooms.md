@@ -3,7 +3,6 @@ layout: post
 title: 1192 Counting Rooms
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ii = pair<int, int>;
 const int NMAX = 1e3 + 11;
@@ -65,4 +65,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

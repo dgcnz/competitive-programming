@@ -3,7 +3,6 @@ layout: post
 title: 702A Maximum Increase
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int n;
 int a[100010];
@@ -37,4 +37,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

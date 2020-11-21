@@ -3,7 +3,6 @@ layout: post
 title: 10110 Light More Light
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 ll count_divisors(ll n)
@@ -32,4 +32,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

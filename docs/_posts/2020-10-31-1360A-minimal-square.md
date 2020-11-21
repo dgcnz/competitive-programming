@@ -3,7 +3,6 @@ layout: post
 title: 1360A Minimal Square
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int main(void)
 {
@@ -30,4 +30,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

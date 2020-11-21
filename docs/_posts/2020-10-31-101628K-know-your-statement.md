@@ -3,7 +3,6 @@ layout: post
 title: 101628K Know Your Statement
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vs = vector<string>;
 const int CMAX = 26;
@@ -140,4 +140,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

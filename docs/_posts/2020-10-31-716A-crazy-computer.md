@@ -3,7 +3,6 @@ layout: post
 title: 716A Crazy Computer
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = 1e5 + 11;
 int a[NMAX];
@@ -30,4 +30,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

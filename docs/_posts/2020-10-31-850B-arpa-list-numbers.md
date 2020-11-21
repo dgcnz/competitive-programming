@@ -3,7 +3,6 @@ layout: post
 title: 850B Arpa List Numbers
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 const int TAMAX = 2e6 + 22;
 using namespace std;
 using ll = long long;
@@ -70,4 +70,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

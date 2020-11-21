@@ -16,3 +16,4 @@ docs/.jekyll-cache/
 docs/xml/
 docs/__pycache__/
 docs/env/
+**/__pycache__/

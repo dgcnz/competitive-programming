@@ -3,7 +3,6 @@ layout: post
 title: 1363B Subsequence Hate
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using vi = vector<int>;
 int solve(string s)
@@ -56,4 +56,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

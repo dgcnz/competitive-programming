@@ -3,7 +3,6 @@ layout: post
 title: 339D Xenia Bit Operations
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 const int NMAX = (1L << 17) + 11;
 int n, height, a[NMAX], seg[4 * NMAX];
@@ -59,4 +59,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

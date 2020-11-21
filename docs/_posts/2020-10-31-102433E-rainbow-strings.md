@@ -3,7 +3,6 @@ layout: post
 title: 102433E Rainbow Strings
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 using ll = long long;
 const int MOD = 11092019;
@@ -36,4 +36,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```

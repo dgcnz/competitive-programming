@@ -3,7 +3,6 @@ layout: post
 title: 1637 Removing Digits
 url: None
 tags: None
-
 time_complexity: None
 memory_complexity: None
 ---
@@ -11,6 +10,7 @@ memory_complexity: None
 None
 
 ```cpp
+{% raw %}
 using namespace std;
 int main(void)
 {
@@ -33,4 +33,5 @@ int main(void)
     return 0;
 }
 
+{% endraw %}
 ```
