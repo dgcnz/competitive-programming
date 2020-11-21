@@ -1,0 +1,56 @@
+---
+layout: post
+title: 1398D Colored Rectangles
+url: None
+tags: None
+
+time_complexity: None
+memory_complexity: None
+---
+
+None
+
+```cpp
+using namespace std;
+using ms = multiset<int, greater<int>>;
+using vi = vector<int>;
+int const NMAX = 200 + 11;
+int dp[NMAX][NMAX][NMAX], nrgb[3];
+vi rgb[3];
+int solve(void)
+{
+    auto [r, g, b] = rgb;
+    auto [nr, ng, nb] = nrgb;
+    for (int ir = 0; ir <= nr; ++ir)
+    {
+        for (int ig = 0; ig <= ng; ++ig)
+        {
+            for (int ib = 0; ib <= nb; ++ib)
+            {
+                int &ans = dp[ir][ig][ib];
+                if (ig > 0 and ib > 0)
+                    ans = dp[ir][ig - 1][ib - 1] + g[ig] * b[ib];
+                if (ir > 0 and ig > 0)
+                    ans = max(ans, dp[ir - 1][ig - 1][ib] + r[ir] * g[ig]);
+                if (ir > 0 and ib > 0)
+                    ans = max(ans, dp[ir - 1][ig][ib - 1] + r[ir] * b[ib]);
+            }
+        }
+    }
+    return dp[nr][ng][nb];
+}
+int main(void)
+{
+    cin >> nrgb[0] >> nrgb[1] >> nrgb[2];
+    for (int i = 0; i < 3; ++i)
+    {
+        rgb[i].resize(nrgb[i] + 1);
+        for (int j = 1; j <= nrgb[i]; ++j)
+            cin >> rgb[i][j];
+        sort(next(rgb[i].begin()), rgb[i].end());
+    }
+    cout << solve() << endl;
+    return 0;
+}
+
+```
