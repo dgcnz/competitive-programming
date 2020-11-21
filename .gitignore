@@ -12,3 +12,4 @@ cpc/
 experimental.cpp
 env/
 .vim/
+docs/.jekyll-cache/
