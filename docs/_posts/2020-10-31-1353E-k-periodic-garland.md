@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: 1353E K Periodic Garland
 url: None
 tags: None
@@ -7,7 +8,9 @@ time_complexity: None
 memory_complexity: None
 ---
 
+{% raw %}
 None
+{% endraw %}
 
 ```cpp
 {% raw %}

@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: 101498J Spilt The String
 url: https://codeforces.com/gym/101498/problem/J
 tags: brute-force, math
@@ -7,9 +8,11 @@ time_complexity: None
 memory_complexity: [O(n)]
 ---
 
+{% raw %}
 Note that we only care about the position of the whitespaces, since we can't break words.
 We can iterate all whitespaces (they will define the end of the first line with width $w$) and test if positions $2w, 3w, ...$ also contain whitespaces.
 By harmonic series approximation, each test call runs in O(logn)
+{% endraw %}
 
 ```cpp
 {% raw %}

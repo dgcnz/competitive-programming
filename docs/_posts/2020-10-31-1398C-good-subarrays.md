@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: 1398C Good Subarrays
 url: None
 tags: None
@@ -7,7 +8,9 @@ time_complexity: None
 memory_complexity: None
 ---
 
+{% raw %}
 None
+{% endraw %}
 
 ```cpp
 {% raw %}

@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: Abc146_D Coloring Edges On Tree
 url: None
 tags: None
@@ -7,7 +8,9 @@ time_complexity: None
 memory_complexity: None
 ---
 
+{% raw %}
 None
+{% endraw %}
 
 ```cpp
 {% raw %}

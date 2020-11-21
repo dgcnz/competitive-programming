@@ -1,5 +1,6 @@
 ---
 layout: post
+mathjax: true
 title: 101498H Palindrome Number
 url: None
 tags: greedy
@@ -7,6 +8,7 @@ time_complexity: None
 memory_complexity: O(n)
 ---
 
+{% raw %}
 Note that there are 2 ways in which no solutions exist:
 n > 1 and s == 1, where placing 1 on both ends would exceed s.
 otherwise, when s exceeds placing 9 on all places.
@@ -15,6 +17,7 @@ otherwise, when s exceeds placing 9 on all places.
 The first case can be handled by a if guard.
 Note that the most significant digits have greater effect in maximizing the palindrome.
 The strategy would then be to greedily maximize from i=0 to n/2.
+{% endraw %}
 
 ```cpp
 {% raw %}

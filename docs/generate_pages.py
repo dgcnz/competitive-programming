@@ -12,6 +12,7 @@ TO_PARSE = ['../codeforces', '../atcoder', '../cses', '../uva']
 
 TEMPLATE = Template("""---
 layout: post
+mathjax: true
 title: $title
 url: $url
 tags: $tags
@@ -19,7 +20,9 @@ time_complexity: $time_complexity
 memory_complexity: $memory_complexity
 ---
 
+{% raw %}
 $idea
+{% endraw %}
 
 ```cpp
 {% raw %}
