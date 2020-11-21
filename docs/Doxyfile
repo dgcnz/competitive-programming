@@ -1,0 +1,35 @@
+INPUT=$(INPUT_PATHS)
+
+GENERATE_XML=YES
+GENERATE_HTML=NO
+GENERATE_LATEX=NO
+XML_PROGRAMLISTING=NO
+MACRO_EXPANSION=YES
+JAVADOC_BANNER=YES
+EXTRACT_ALL            = NO
+EXTRACT_PRIVATE        = NO
+EXTRACT_STATIC         = NO
+HIDE_UNDOC_MEMBERS     = YES
+HIDE_UNDOC_CLASSES     = YES
+HIDE_FRIEND_COMPOUNDS  = YES
+HIDE_IN_BODY_DOCS      = YES
+
+ALIASES += title="\par Title^^"
+ALIASES += url="\par URL^^"
+ALIASES += tags="\par Tags^^"
+
+ALIASES += status="\par Status^^"
+ALIASES += score="\par Score^^"
+ALIASES += difficulty="\par Difficulty^^"
+ALIASES += editorial="\par Editorial^^"
+
+ALIASES += reading_time="\par Reading Time^^"
+ALIASES += thinking_time="\par Thinking Time^^"
+ALIASES += coding_time="\par Coding Time^^"
+ALIASES += debug_time="\par Debug Time^^"
+
+ALIASES += time_complexity="\par Time Complexity^^"
+ALIASES += memory_complexity="\par Memory Complexity^^"
+
+ALIASES += idea="\par Idea^^"
+ALIASES += endidea=""
