@@ -12,6 +12,7 @@ cpc/
 experimental.cpp
 env/
 .vim/
+<<<<<<< HEAD
 docs/.jekyll-cache/
 docs/xml/
 docs/__pycache__/
@@ -19,3 +20,4 @@ docs/env/
 **/__pycache__/
 docs/_site/
 **/.jekyll-cache
+.jekyll-cache
