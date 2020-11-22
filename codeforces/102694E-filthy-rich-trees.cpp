@@ -1,23 +1,20 @@
 /** @file
  *
- * @title Filthy Rich Trees
- * @url https://codeforces.com/gym/102694/problem/E
- * @tags segment_tree, euler_tour_technique
- *
- * @status AC
- * @score 5
- * @difficulty 4
- * @editorial No
- *
- * @reading_time 5
- * @thinking_time 10
- * @coding_time 40
- *
- * @time_complexity O(q*log(n))
- * @memory_complexity O(n)
+ * @url                 https://codeforces.com/gym/102694/problem/E
+ * @tags                segment_tree, euler_tour_technique
+ * @status              AC
+ * @score               5
+ * @difficulty          4
+ * @editorial           no
+ * @reading_time        5
+ * @thinking_time       10
+ * @coding_time         40
+ * @time_complexity     O(q \log(n))
+ * @memory_complexity   O(n)
  * @idea
- *      Flattening tree with ETT. Build Segment Tree that stores the
- *      multiplication of subtrees as log addition.
+ *  - Flattening tree with ETT.
+ *  - Build Segment Tree that stores the multiplication of subtrees as log
+ * addition.
  * @endidea
  */
 

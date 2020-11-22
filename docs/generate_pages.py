@@ -14,20 +14,34 @@ TEMPLATE = Template("""---
 layout: post
 mathjax: true
 title: $title
-url: $url
+problem_url: $problem_url
 tags: $tags
-time_complexity: $time_complexity
 memory_complexity: $memory_complexity
+time_complexity: $time_complexity
 ---
 
 $idea
+
+
+{% if page.time_complexity != "None" %}
+- Time complexity: $${{ page.time_complexity }}$$
+{% endif %}
+{% if page.memory_complexity != "None" %}
+- Memory complexity: $${{ page.memory_complexity }}$$
+{% endif %}
+{% if page.tags != "None" %}
+- Tags: {{ page.tags }}
+{% endif %}
+
+{% if page.problem_url != "None" %}
+- [URL]({{ page.problem_url }})
+{% endif %}
 
 ```cpp
 {% raw %}
 $source_code
 {% endraw %}
-```
-""")
+```""")
 
 ATTR_FIELDS = [
     'title', 'url', 'tags', 'time_complexity', 'memory_complexity', 'idea'
@@ -51,6 +65,10 @@ def main():
             if payload['title'] is None:
                 alt_title = (' '.join(source_file.stem.split('-'))).title()
                 payload['title'] = alt_title
+
+            if payload['url'] is not None:
+                payload['problem_url'] = payload['url']
+                del payload['url']
 
             print(source_file)
             output = subprocess.run(

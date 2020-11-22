@@ -1,21 +1,16 @@
 /** @file
  *
- * @title               J. Split the String
  * @url                 https://codeforces.com/gym/101498/problem/J
  * @tags                brute-force, math
- *
  * @status              AC
  * @score               3
  * @difficulty          3
  * @editorial           no
- *
  * @reading_time        1
  * @thinking_time       15
  * @coding_time         10
- * @debug_time          0
- *
- * @time_complexity     [O(nlogn))
- * @memory_complexity   [O(n)]
+ * @time_complexity     O(n \log(n))
+ * @memory_complexity   O(n)
  * @idea
  *  - Note that we only care about the position of the whitespaces, since we
  * can't break words.

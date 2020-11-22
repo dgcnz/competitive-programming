@@ -4,11 +4,26 @@ mathjax: true
 title: Filthy Rich Trees
 url: https://codeforces.com/gym/102694/problem/E
 tags: segment_tree, euler_tour_technique
-time_complexity: O(q*log(n))
 memory_complexity: O(n)
+time_complexity: O(q*log(n))
 ---
 
 Flattening tree with ETT. Build Segment Tree that stores the multiplication of subtrees as log addition.
+
+
+{% if page.time_complexity != "None" %}
+- Time complexity: {{ page.time_complexity }}
+{% endif %}
+{% if page.memory_complexity != "None" %}
+- Memory complexity: {{ page.memory_complexity }}
+{% endif %}
+{% if page.tags != "None" %}
+- Tags: {{ page.tags }}
+{% endif %}
+
+{% if page.url != "None" %}
+- [URL]({{ page.url }})
+{% endif %}
 
 ```cpp
 {% raw %}

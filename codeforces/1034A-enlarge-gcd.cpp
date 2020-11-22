@@ -1,23 +1,17 @@
 /** @file
  *
- * @title               Enlarge GCD
  * @url                 https://codeforces.com/contest/1034/problem/A
  * @tags                number_theory, erathostenes_sieve, gcd
- *
  * @status              AC
  * @score               4
  * @difficulty          3
  * @editorial           no
- *
  * @reading_time        10
  * @thinking_time       20
- * @coding_time         15
- * @debug_time          10
- *
- * @time_complexity     [O(nlog(amax)))
- * @memory_complexity   [O(amax))]
+ * @coding_time         25
+ * @time_complexity     O(n \log(a_{max}))
+ * @memory_complexity   O(a_{max})
  * @idea
- * General:
  *  - Note that any other common factor between the chosen subset of numbers
  * will result in a greater gcd than the global gcd.
  *  - So, the problem reduces to finding the most frequent common factor.

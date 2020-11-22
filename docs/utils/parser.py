@@ -9,6 +9,53 @@ from tqdm import tqdm
 pp = pprint.PrettyPrinter(indent=4)
 
 XML_FOLDER = Path('./xml/')
+"""
+<simplesect kind="par">
+<title>Idea</title>
+
+<para>
+[Maybe this is flawed, but it got AC. Nevertheless, here&apos;s my reasoning.]
+<itemizedlist>
+    <listitem>
+        <para>Let&apos;s define:
+            <orderedlist>
+                <listitem><para>Even state: 2 piles have an even amount of rocks.</para></listitem>
+                <listitem><para>Odd state: not even state.</para></listitem>
+            </orderedlist>
+        </para>
+    </listitem>
+    <listitem><para>If a player is on an even state, the second player can always force him to be on even states.</para></listitem>
+    <listitem><para>So, since the end state has trivially an even state, then whoever starts on an uneven state can force the second player to lose by keeping him on even states. </para></listitem>
+</itemizedlist>
+</para>
+
+</simplesect>
+"""
+
+
+def walk(node, indent=0):
+    '''
+    - ``para``
+    - ``orderedlist``
+    - ``itemizedlist``
+    - ``verbatim`` (specifically: ``embed:rst:leading-asterisk``)
+    - ``formula``
+    - ``ref``
+    - ``emphasis`` (e.g., using `em`_)
+    - ``computeroutput`` (e.g., using `c`_)
+    - ``bold`` (e.g., using `b`_)
+    '''
+    ans = ''
+    for child in node:
+        if child.tag == 'itemizedList':
+            itemizedList = child
+            for listitem in itemizedList.findall('listitem'):
+                ans += ' - '
+                ans += walk(listitem, level + 1)
+                ans += '\n'
+        if child.tag == 'para':
+            para = child
+            ans += walk(para, level + 1)
 
 
 def run_doxygen(input, verbose=False):
@@ -55,9 +102,14 @@ def get_attributes(parsed_file):
         for simplesect in para.iter('simplesect'):
             title = simplesect.find('title').text.strip()
             title = '_'.join(title.lower().split())
-            parameter = ET.tostring(simplesect.find('para'),
-                                    encoding='utf-8',
-                                    method='text').strip().decode('utf-8')
+            content = simplesect.find('para')
+            if title == 'idea':
+                md = walk(content, 0)
+                parameter = md
+            else:
+                parameter = content.text
+            #  parameter = ET.tostring(content, encoding='utf-8',
+            #                        method='text').strip().decode('utf-8')
             payload[title] = parameter
     return payload
 
@@ -71,3 +123,10 @@ def get_parsed_folder(input_paths: List[Path]):
         pbar.set_description(f'Parsing {Path(file["source_file"]).name}.')
         file['attributes'] = get_attributes(file['parsed_file'])
     return files
+
+
+if __name__ == '__main__':
+    name = '1327E-count-the-blocks.cpp'
+    p = Path(f'../codeforces/{name}')
+    files = get_parsed_folder([p.absolute()])
+    print(files)

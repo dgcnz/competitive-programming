@@ -18,3 +18,4 @@ docs/__pycache__/
 docs/env/
 **/__pycache__/
 docs/_site/
+**/.jekyll-cache

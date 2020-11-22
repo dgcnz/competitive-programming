@@ -2,17 +2,13 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/H
  * @tags                greedy
- *
  * @status              AC
  * @score               3
  * @difficulty          2
  * @editorial           no
- *
  * @reading_time        1
  * @thinking_time       3
- * @coding_time         7
- * @debug_time          1
- *
+ * @coding_time         8
  * @time_complexity     O(n)
  * @memory_complexity   O(n)
  * @idea

@@ -2,10 +2,10 @@
 layout: post
 mathjax: true
 title: 101498H Palindrome Number
-url: None
+problem_url: None
 tags: greedy
-time_complexity: None
 memory_complexity: O(n)
+time_complexity: O(n)
 ---
 
 Note that there are 2 ways in which no solutions exist:
@@ -16,6 +16,21 @@ otherwise, when s exceeds placing 9 on all places.
 The first case can be handled by a if guard.
 Note that the most significant digits have greater effect in maximizing the palindrome.
 The strategy would then be to greedily maximize from i=0 to n/2.
+
+
+{% if page.time_complexity != "None" %}
+- Time complexity: ${{ page.time_complexity }}$
+{% endif %}
+{% if page.memory_complexity != "None" %}
+- Memory complexity: ${{ page.memory_complexity }}$
+{% endif %}
+{% if page.tags != "None" %}
+- Tags: {{ page.tags }}
+{% endif %}
+
+{% if page.problem_url != "None" %}
+- [URL]({{ page.problem_url }})
+{% endif %}
 
 ```cpp
 {% raw %}

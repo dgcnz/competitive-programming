@@ -4,14 +4,29 @@ mathjax: true
 title: 1327E Count The Blocks
 url: https://codeforces.com/contest/1327/problem/E
 tags: math, combinatorics
-time_complexity: None
 memory_complexity: O(n)
+time_complexity: None
 ---
 
 General idea:
 For a block of size i, you have 10 ways to choose it.
 The two neighboring digits have 9 ways each to be chosen.
 The remaining digits have 10^{n - i - 2} ways to be chosen.
+
+
+{% if page.time_complexity != "None" %}
+- Time complexity: {{ page.time_complexity }}
+{% endif %}
+{% if page.memory_complexity != "None" %}
+- Memory complexity: {{ page.memory_complexity }}
+{% endif %}
+{% if page.tags != "None" %}
+- Tags: {{ page.tags }}
+{% endif %}
+
+{% if page.url != "None" %}
+- [URL]({{ page.url }})
+{% endif %}
 
 ```cpp
 {% raw %}

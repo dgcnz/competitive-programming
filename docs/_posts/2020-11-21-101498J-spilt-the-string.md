@@ -2,15 +2,30 @@
 layout: post
 mathjax: true
 title: 101498J Spilt The String
-url: https://codeforces.com/gym/101498/problem/J
+problem_url: None
 tags: brute-force, math
-time_complexity: None
-memory_complexity: [O(n)]
+memory_complexity: O(n)
+time_complexity: O(n \log(n))
 ---
 
 Note that we only care about the position of the whitespaces, since we can't break words.
 We can iterate all whitespaces (they will define the end of the first line with width $w$) and test if positions $2w, 3w, ...$ also contain whitespaces.
 By harmonic series approximation, each test call runs in O(logn)
+
+
+{% if page.time_complexity != "None" %}
+- Time complexity: ${{ page.time_complexity }}$
+{% endif %}
+{% if page.memory_complexity != "None" %}
+- Memory complexity: ${{ page.memory_complexity }}$
+{% endif %}
+{% if page.tags != "None" %}
+- Tags: {{ page.tags }}
+{% endif %}
+
+{% if page.problem_url != "None" %}
+- [URL]({{ page.problem_url }})
+{% endif %}
 
 ```cpp
 {% raw %}
