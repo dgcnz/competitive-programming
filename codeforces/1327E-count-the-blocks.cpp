@@ -1,31 +1,24 @@
 /** @file
  *
- * @title               Count The Blocks
  * @url                 https://codeforces.com/contest/1327/problem/E
  * @tags                math, combinatorics
- *
  * @status              AC
  * @score               3
  * @difficulty          4
  * @editorial           yes
- *
  * @reading_time        3
  * @thinking_time       50
- * @coding_time         5
- * @debug_time          10
- *
+ * @coding_time         15
  * @time_complexity     O(n)
  * @memory_complexity   O(n)
  * @idea
- *      General idea:
- *      - For a block of size i, you have 10 ways to choose it.
- *      - The two neighboring digits have 9 ways each to be chosen.
- *      - The remaining digits have 10^{n - i - 2} ways to be chosen.
- *
- *      Implementation details:
- *      - Precompute powers of 10 mod 998244353.
- *      - To ease computation, distinguish between border and inner blocks.
- *      - See editorial for info on last point.
+ *  - For a block of size i, you have 10 ways to choose it.
+ *  - The two neighboring digits have 9 ways each to be chosen.
+ *  - The remaining digits have $10^{n - i - 2}$ ways to be chosen.
+ * Implementation details:
+ *  - Precompute powers of $10$ mod $998244353$.
+ *  - To ease computation, distinguish between border and inner blocks.
+ *  - See editorial for info on last point.
  * @endidea
  */
 

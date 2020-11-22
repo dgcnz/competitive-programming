@@ -2,21 +2,17 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/E
  * @tags                math
- *
  * @status              AC
  * @score               0
  * @difficulty          0
  * @editorial           no
- *
  * @reading_time        1
  * @thinking_time       3
  * @coding_time         2
- * @debug_time          0
- *
- * @time_complexity     [O(1))
- * @memory_complexity   [O(1)]
+ * @time_complexity     O(1)
+ * @memory_complexity   O(1)
  * @idea
- *  - The answer is k + the time the last car is waiting.
+ *  - The answer is $k$ + the time the last car is waiting.
  * @endidea
  */
 

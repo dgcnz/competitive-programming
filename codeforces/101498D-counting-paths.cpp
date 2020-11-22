@@ -2,19 +2,15 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/D
  * @tags                math, combinatorics
- *
  * @status              AC
  * @score               4
  * @difficulty          4
  * @editorial           no
- *
  * @reading_time        3
  * @thinking_time       30
- * @coding_time         5
- * @debug_time          5
- *
- * @time_complexity     [O(f(n)))
- * @memory_complexity   [O(f(n))]
+ * @coding_time         10
+ * @time_complexity     O(n)
+ * @memory_complexity   O(n)
  * @idea
  *  - A path in a binary tree can be described by a sequence of l's and r's.
  *  - We need to count such $a$-sized sequences such that they change $b$ times.

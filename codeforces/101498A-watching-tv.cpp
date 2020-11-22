@@ -2,19 +2,15 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/A
  * @tags                sorting, data-structures
- *
  * @status              AC
  * @score               1
  * @difficulty          0
  * @editorial           no
- *
  * @reading_time        1
  * @thinking_time       1
- * @coding_time         4
- * @debug_time          1
- *
- * @time_complexity     [O(nlogn))
- * @memory_complexity   [O(n)]
+ * @coding_time         5
+ * @time_complexity     O(n \log(n))
+ * @memory_complexity   O(n)
  * @idea
  *  - Maintain a map that stores the frequency count.
  *  - Find frequency with biggest count.

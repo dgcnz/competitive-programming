@@ -2,19 +2,15 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/B
  * @tags                greedy
- *
  * @status              AC
  * @score               2
  * @difficulty          1
  * @editorial           no
- *
  * @reading_time        1
  * @thinking_time       2
- * @coding_time         4
- * @debug_time          2
- *
- * @time_complexity     [O(n))
- * @memory_complexity   [O(n)]
+ * @coding_time         6
+ * @time_complexity     O(n)
+ * @memory_complexity   O(n)
  * @idea
  *  - Greedily match the characters of the second string to the first string.
  * @endidea

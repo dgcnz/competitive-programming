@@ -1,25 +1,19 @@
 /** @file
  *
- * @title               [name]
- * @url                 [url]
- * @tags                [tag1], [tag2], ...
- *
- * @status              [AC/TLE/MLE]
- * @score               [0-5]
- * @difficulty          [0-5]
- * @editorial           [yes/no]
- *
- * @reading_time        [minutes]
- * @thinking_time       [minutes]
- * @coding_time         [minutes]
- * @debug_time          [minutes]
- *
- * @time_complexity     [O(f(n)))
- * @memory_complexity   [O(f(n))]
+ * @url                 https://url.com
+ * @tags                math, sorting
+ * @status              AC
+ * @score               0
+ * @difficulty          0
+ * @editorial           no
+ * @reading_time        000
+ * @thinking_time       000
+ * @coding_time         000
+ * @time_complexity     O(n)
+ * @memory_complexity   O(n)
  * @idea
- *      [
- *      ...
- *      ]
+ *
+ *
  * @endidea
  */
 

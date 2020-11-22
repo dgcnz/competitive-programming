@@ -2,19 +2,15 @@
  *
  * @url                 https://codeforces.com/gym/101498/problem/I
  * @tags                game_theory, math
- *
  * @status              AC
  * @score               4
  * @difficulty          4
  * @editorial           no
- *
  * @reading_time        2
  * @thinking_time       30
  * @coding_time         2
- * @debug_time          0
- *
- * @time_complexity     [O(1))
- * @memory_complexity   [O(1)]
+ * @time_complexity     O(1)
+ * @memory_complexity   O(1)
  * @idea
  *  [Maybe this is flawed, but it got AC. Nevertheless, here's my reasoning.]
  *  - Let's define:
