@@ -2,12 +2,23 @@
 layout: post
 mathjax: true
 title: 1337C Linova Kingdom
-problem_url: None
-tags: None
-memory_complexity: None
-time_complexity: None
+problem_url: https://codeforces.com/contest/1337/problem/C
+tags: dfs, contribution_method
+memory_complexity: O(n)
+time_complexity: O(n)
 ---
 
+The intuition tells you to choose the k nodes more distant from the
+root node, but how?
+
+Let's say we start from the leaves, what would their
+contribution be? Its depth, right?
+
+Now, what if we chose its parent? We would need to add its depth and
+subtract 1 from its child.
+
+If we generalize this idea we end up with:
+`contribution(v) = depth(v) + num_children(v)` for node `v`.
 
 
 {% if page.time_complexity != "None" %}
