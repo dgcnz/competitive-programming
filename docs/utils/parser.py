@@ -61,9 +61,7 @@ def get_attributes(parsed_file):
                 clean = '\n'.join([line[2:] for line in raw.splitlines()])
                 parameter = clean
             else:
-                parameter = content.text
-            #  parameter = ET.tostring(content, encoding='utf-8',
-            #                        method='text').strip().decode('utf-8')
+                parameter = ET.tostring(content, encoding='utf-8', method='text').strip().decode('utf-8')
             payload[title] = parameter
     return payload
 

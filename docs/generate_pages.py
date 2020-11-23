@@ -22,7 +22,6 @@ time_complexity: $time_complexity
 
 $idea
 
-
 {% if page.time_complexity != "None" %}
 Time complexity: $${{ page.time_complexity }}$$
 {% endif %}
@@ -47,15 +46,19 @@ def main():
     for file_dict in files_dict:
         attributes = file_dict['attributes']
         source_file = Path(file_dict['source_file'])
-        creation_date = datetime.fromtimestamp(source_file.stat().st_ctime)
 
-        new_filename = f'{creation_date.strftime("%Y-%m-%d")}-{source_file.stem}.md'
+        creation_date = attributes[
+            'date'] if 'date' in attributes else datetime.fromtimestamp(
+                source_file.stat().st_ctime).strftime("%Y-%m-%d")
+
+        new_filename = f'{creation_date}-{source_file.stem}.md'
         with open(f'_posts/{new_filename}', 'w') as f:
             text = TEMPLATE
             payload = {
                 attr: attributes.get(attr, None)
                 for attr in ATTR_FIELDS
             }
+
             if payload['title'] is None:
                 alt_title = (' '.join(source_file.stem.split('-'))).title()
                 payload['title'] = alt_title
@@ -63,6 +66,9 @@ def main():
             if 'url' in payload:
                 payload['problem_url'] = payload['url']
                 del payload['url']
+
+            if payload['idea'] is None:
+                payload['idea'] = ''
 
             print(source_file)
             output = subprocess.run(

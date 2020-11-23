@@ -12,7 +12,6 @@ cpc/
 experimental.cpp
 env/
 .vim/
-<<<<<<< HEAD
 docs/.jekyll-cache/
 docs/xml/
 docs/__pycache__/
