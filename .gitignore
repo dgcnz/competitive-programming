@@ -13,4 +13,5 @@ experimental.cpp
 env/
 .vim/
 docs/
+**/unsolved/
 .jekyll-cache
