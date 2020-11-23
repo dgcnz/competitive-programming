@@ -1,17 +1,3 @@
-/**@file
- * @oj codeforces
- * @url https://codeforces.com/contest/1337/problem/C
- * @complexity O(n)
- * @idea The intuition tells you to choose the k nodes more distant from the
- *      root node, but how? Let's say we start from the leaves, what would their
- *      contribution be? Its depth, right?
- *      Now, what if we chose its parent? We would need to add its depth and
- *      subtract 1 from its child. If we generalize this idea we end up with
- *      `contribution(v) = depth(v) + num_children(v)` for node v.
- *
- * @endidea
- **/
-
 /** @file
  * @date                2020-04-16
  * @url                 https://codeforces.com/contest/1337/problem/C
