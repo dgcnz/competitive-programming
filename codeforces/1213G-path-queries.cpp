@@ -1,5 +1,5 @@
 /** @file
- *
+ * @date                2020-11-19
  * @url                 https://codeforces.com/contest/1213/problem/G
  * @tags                dsu, trees, contribution, offline, binary_search
  * @status              AC

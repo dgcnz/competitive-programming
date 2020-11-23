@@ -1,5 +1,5 @@
 /** @file
- *
+ * @date                2020-11-21
  * @url                 https://codeforces.com/gym/102694/problem/E
  * @tags                segment_tree, euler_tour_technique
  * @status              AC

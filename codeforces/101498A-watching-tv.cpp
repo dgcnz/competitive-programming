@@ -1,5 +1,5 @@
 /** @file
- *
+ * @date                2020-11-21
  * @url                 https://codeforces.com/gym/101498/problem/A
  * @tags                sorting, data-structures
  * @status              AC

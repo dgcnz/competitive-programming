@@ -1,5 +1,5 @@
 /** @file
- *
+ * @date                2020-11-20
  * @url                 https://codeforces.com/contest/1327/problem/E
  * @tags                math, combinatorics
  * @status              AC

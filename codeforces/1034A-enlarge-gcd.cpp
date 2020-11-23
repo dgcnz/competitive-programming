@@ -1,5 +1,5 @@
 /** @file
- *
+ * @date                2020-11-21
  * @url                 https://codeforces.com/contest/1034/problem/A
  * @tags                number_theory, erathostenes_sieve, gcd
  * @status              AC
