@@ -18,6 +18,10 @@ Time complexity: ${{ page.time_complexity }}$
 Memory complexity: ${{ page.memory_complexity }}$
 {% endif %}
 
+<details>
+<summary>
+<p style="display:inline">Click to show code.</p>
+</summary>
 ```cpp
 {% raw %}
 using namespace std;
@@ -64,3 +68,5 @@ int main(void)
 
 {% endraw %}
 ```
+</details>
+

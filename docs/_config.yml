@@ -9,6 +9,9 @@ baseurl:             /competitive-programming
 paginate:            10
 permalink:           pretty
 exclude:             ['xml/', 'Doxyfile', 'generate_pages.py', 'utils/']
+markdown: kramdown
+kramdown:
+  parse_block_html: true
 
 # About/contact
 author:
