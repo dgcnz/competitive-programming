@@ -24,17 +24,11 @@ $idea
 
 
 {% if page.time_complexity != "None" %}
-- Time complexity: $${{ page.time_complexity }}$$
-{% endif %}
-{% if page.memory_complexity != "None" %}
-- Memory complexity: $${{ page.memory_complexity }}$$
-{% endif %}
-{% if page.tags != "None" %}
-- Tags: {{ page.tags }}
+Time complexity: $${{ page.time_complexity }}$$
 {% endif %}
 
-{% if page.problem_url != "None" %}
-- [URL]({{ page.problem_url }})
+{% if page.memory_complexity != "None" %}
+Memory complexity: $${{ page.memory_complexity }}$$
 {% endif %}
 
 ```cpp
@@ -66,7 +60,7 @@ def main():
                 alt_title = (' '.join(source_file.stem.split('-'))).title()
                 payload['title'] = alt_title
 
-            if payload['url'] is not None:
+            if 'url' in payload:
                 payload['problem_url'] = payload['url']
                 del payload['url']
 
