@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1253D Harmonious Graph
+title: 1253D - Harmonious Graph
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 193C Cutting Figure
+title: 193C - Cutting Figure
 problem_url: None
 tags: None
 memory_complexity: None

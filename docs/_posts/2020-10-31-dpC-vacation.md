@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpc Vacation
+title: dpC - Vacation
 problem_url: None
 tags: None
 memory_complexity: None

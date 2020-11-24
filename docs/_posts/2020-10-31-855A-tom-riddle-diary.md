@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 855A Tom Riddle Diary
+title: 855A - Tom Riddle Diary
 problem_url: None
 tags: None
 memory_complexity: None

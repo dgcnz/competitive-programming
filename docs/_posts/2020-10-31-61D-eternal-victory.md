@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 61D Eternal Victory
+title: 61D - Eternal Victory
 problem_url: None
 tags: None
 memory_complexity: None

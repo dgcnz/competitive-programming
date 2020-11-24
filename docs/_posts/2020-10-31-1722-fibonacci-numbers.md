@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1722 Fibonacci Numbers
+title: 1722 - Fibonacci Numbers
 problem_url: None
 tags: None
 memory_complexity: None

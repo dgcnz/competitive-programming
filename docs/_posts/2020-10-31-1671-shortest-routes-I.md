@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1671 Shortest Routes I
+title: 1671 - Shortest Routes I
 problem_url: None
 tags: None
 memory_complexity: None

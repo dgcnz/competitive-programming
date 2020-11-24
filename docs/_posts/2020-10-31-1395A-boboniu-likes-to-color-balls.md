@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1395A Boboniu Likes To Color Balls
+title: 1395A - Boboniu Likes To Color Balls
 problem_url: None
 tags: None
 memory_complexity: None

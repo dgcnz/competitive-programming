@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1350B Orac And Models
+title: 1350B - Orac And Models
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1079 Binomial Coefficients
+title: 1079 - Binomial Coefficients
 problem_url: None
 tags: None
 memory_complexity: None

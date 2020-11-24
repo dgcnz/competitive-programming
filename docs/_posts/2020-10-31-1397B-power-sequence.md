@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1397B Power Sequence
+title: 1397B - Power Sequence
 problem_url: None
 tags: None
 memory_complexity: None

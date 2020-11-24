@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1401B Ternary Sequence
+title: 1401B - Ternary Sequence
 problem_url: None
 tags: None
 memory_complexity: None

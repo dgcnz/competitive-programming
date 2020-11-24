@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Jsc2019_Qual_B Kleene Inversion
+title: jsc2019_qual_b - Kleene Inversion
 problem_url: None
 tags: None
 memory_complexity: None

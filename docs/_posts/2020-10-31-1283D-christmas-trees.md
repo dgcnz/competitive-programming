@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1283D Christmas Trees
+title: 1283D - Christmas Trees
 problem_url: None
 tags: None
 memory_complexity: None

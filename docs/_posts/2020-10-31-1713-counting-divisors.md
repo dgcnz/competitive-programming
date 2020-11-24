@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1713 Counting Divisors
+title: 1713 - Counting Divisors
 problem_url: None
 tags: None
 memory_complexity: None

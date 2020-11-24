@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc146_A Cant Wait For Holiday
+title: abc146_a - Cant Wait For Holiday
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101755E Substring Reverse
+title: 101755E - Substring Reverse
 problem_url: None
 tags: None
 memory_complexity: None

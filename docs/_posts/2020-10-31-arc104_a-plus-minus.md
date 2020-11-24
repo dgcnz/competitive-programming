@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc104_A Plus Minus
+title: arc104_a - Plus Minus
 problem_url: None
 tags: None
 memory_complexity: None

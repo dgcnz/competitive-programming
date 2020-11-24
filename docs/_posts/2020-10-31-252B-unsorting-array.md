@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 252B Unsorting Array
+title: 252B - Unsorting Array
 problem_url: None
 tags: None
 memory_complexity: None

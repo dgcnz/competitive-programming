@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 578C Weakness And Poorness
+title: 578C - Weakness And Poorness
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1003D Coins And Queries
+title: 1003D - Coins And Queries
 problem_url: None
 tags: None
 memory_complexity: None

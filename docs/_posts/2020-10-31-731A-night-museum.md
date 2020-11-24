@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 731A Night Museum
+title: 731A - Night Museum
 problem_url: None
 tags: None
 memory_complexity: None

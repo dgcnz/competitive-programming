@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1717 Christmas Party
+title: 1717 - Christmas Party
 problem_url: None
 tags: None
 memory_complexity: None

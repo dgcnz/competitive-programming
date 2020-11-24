@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1392B Omkar Infinity Clock
+title: 1392B - Omkar Infinity Clock
 problem_url: None
 tags: None
 memory_complexity: None

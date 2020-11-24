@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 12086 Potentiometers
+title: 12086 - Potentiometers
 problem_url: None
 tags: None
 memory_complexity: None

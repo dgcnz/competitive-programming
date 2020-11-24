@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1393C Pinkie Pie Eats Patty Cakes
+title: 1393C - Pinkie Pie Eats Patty Cakes
 problem_url: None
 tags: None
 memory_complexity: None

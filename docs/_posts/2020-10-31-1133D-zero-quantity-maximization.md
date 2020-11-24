@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1133D Zero Quantity Maximization
+title: 1133D - Zero Quantity Maximization
 problem_url: None
 tags: None
 memory_complexity: None

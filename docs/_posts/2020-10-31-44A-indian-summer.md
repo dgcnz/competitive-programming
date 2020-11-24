@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 44A Indian Summer
+title: 44A - Indian Summer
 problem_url: None
 tags: None
 memory_complexity: None

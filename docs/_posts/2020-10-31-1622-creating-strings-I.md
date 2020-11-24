@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1622 Creating Strings I
+title: 1622 - Creating Strings I
 problem_url: None
 tags: None
 memory_complexity: None

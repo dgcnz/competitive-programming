@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 792B Counting Out Rhyme
+title: 792B - Counting Out Rhyme
 problem_url: None
 tags: None
 memory_complexity: None

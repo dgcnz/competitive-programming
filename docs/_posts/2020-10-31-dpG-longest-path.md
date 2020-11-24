@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpg Longest Path
+title: dpG - Longest Path
 problem_url: None
 tags: None
 memory_complexity: None

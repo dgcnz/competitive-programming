@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc146_D Coloring Edges On Tree
+title: abc146_d - Coloring Edges On Tree
 problem_url: None
 tags: None
 memory_complexity: None

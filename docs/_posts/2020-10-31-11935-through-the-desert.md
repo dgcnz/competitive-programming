@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11935 Through The Desert
+title: 11935 - Through The Desert
 problem_url: None
 tags: None
 memory_complexity: None

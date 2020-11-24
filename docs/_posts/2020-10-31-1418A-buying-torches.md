@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1418A Buying Torches
+title: 1418A - Buying Torches
 problem_url: None
 tags: None
 memory_complexity: None

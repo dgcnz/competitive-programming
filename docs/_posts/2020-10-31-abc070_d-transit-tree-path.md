@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc070_D Transit Tree Path
+title: abc070_d - Transit Tree Path
 problem_url: None
 tags: None
 memory_complexity: None

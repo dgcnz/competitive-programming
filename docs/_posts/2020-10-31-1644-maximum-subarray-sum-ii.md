@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1644 Maximum Subarray Sum Ii
+title: 1644 - Maximum Subarray Sum Ii
 problem_url: None
 tags: None
 memory_complexity: None

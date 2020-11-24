@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 898E Squares Not Squares
+title: 898E - Squares Not Squares
 problem_url: None
 tags: None
 memory_complexity: None

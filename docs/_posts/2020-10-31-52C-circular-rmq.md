@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 52C Circular Rmq
+title: 52C - Circular Rmq
 problem_url: None
 tags: None
 memory_complexity: None

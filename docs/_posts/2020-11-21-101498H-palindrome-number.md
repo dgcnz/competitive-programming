@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101498H Palindrome Number
+title: 101498H - Palindrome Number
 problem_url: https://codeforces.com/gym/101498/problem/H
 tags: greedy
 memory_complexity: O(n)

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 10131 Is Bigger Smarter
+title: 10131 - Is Bigger Smarter
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1405B Array Cancellation
+title: 1405B - Array Cancellation
 problem_url: None
 tags: None
 memory_complexity: None

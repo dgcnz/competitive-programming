@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc174_A Air Conditioner
+title: abc174_a - Air Conditioner
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1630 Tasks Deadlines
+title: 1630 - Tasks Deadlines
 problem_url: None
 tags: None
 memory_complexity: None

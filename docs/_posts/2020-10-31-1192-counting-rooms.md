@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1192 Counting Rooms
+title: 1192 - Counting Rooms
 problem_url: None
 tags: None
 memory_complexity: None

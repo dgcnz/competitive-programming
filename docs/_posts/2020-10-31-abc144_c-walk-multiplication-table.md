@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc144_C Walk Multiplication Table
+title: abc144_c - Walk Multiplication Table
 problem_url: None
 tags: None
 memory_complexity: None

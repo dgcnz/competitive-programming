@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc167_B Easy Linear Programming
+title: abc167_b - Easy Linear Programming
 problem_url: None
 tags: None
 memory_complexity: None

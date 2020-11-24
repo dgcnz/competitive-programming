@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1712 Exponentiation Ii
+title: 1712 - Exponentiation Ii
 problem_url: None
 tags: None
 memory_complexity: None

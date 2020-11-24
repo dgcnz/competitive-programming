@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc139_B Power Socket
+title: abc139_b - Power Socket
 problem_url: None
 tags: None
 memory_complexity: None

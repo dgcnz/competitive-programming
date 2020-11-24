@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1316A Grade Allocation
+title: 1316A - Grade Allocation
 problem_url: None
 tags: None
 memory_complexity: None

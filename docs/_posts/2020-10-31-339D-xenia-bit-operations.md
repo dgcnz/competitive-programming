@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 339D Xenia Bit Operations
+title: 339D - Xenia Bit Operations
 problem_url: None
 tags: None
 memory_complexity: None

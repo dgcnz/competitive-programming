@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1363A Odd Selection
+title: 1363A - Odd Selection
 problem_url: None
 tags: None
 memory_complexity: None

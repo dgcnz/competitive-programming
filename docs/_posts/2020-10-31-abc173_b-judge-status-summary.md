@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc173_B Judge Status Summary
+title: abc173_b - Judge Status Summary
 problem_url: None
 tags: None
 memory_complexity: None

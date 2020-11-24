@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1682 Flight Routes Check
+title: 1682 - Flight Routes Check
 problem_url: None
 tags: None
 memory_complexity: None

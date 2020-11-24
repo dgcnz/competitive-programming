@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1328A Divisibility Problem
+title: 1328A - Divisibility Problem
 problem_url: None
 tags: None
 memory_complexity: None

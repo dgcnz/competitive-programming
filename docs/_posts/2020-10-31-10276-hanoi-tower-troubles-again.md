@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 10276 Hanoi Tower Troubles Again
+title: 10276 - Hanoi Tower Troubles Again
 problem_url: None
 tags: None
 memory_complexity: None

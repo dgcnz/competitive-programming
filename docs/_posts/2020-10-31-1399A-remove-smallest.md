@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1399A Remove Smallest
+title: 1399A - Remove Smallest
 problem_url: None
 tags: None
 memory_complexity: None

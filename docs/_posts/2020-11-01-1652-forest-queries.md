@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1652 Forest Queries
+title: 1652 - Forest Queries
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 665D Simple Subset
+title: 665D - Simple Subset
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1362B Johnny Hobbies
+title: 1362B - Johnny Hobbies
 problem_url: None
 tags: None
 memory_complexity: None

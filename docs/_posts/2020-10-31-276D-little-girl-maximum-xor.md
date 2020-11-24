@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 276D Little Girl Maximum Xor
+title: 276D - Little Girl Maximum Xor
 problem_url: None
 tags: None
 memory_complexity: None

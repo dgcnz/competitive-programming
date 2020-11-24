@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc170_D Not Divisible
+title: abc170_d - Not Divisible
 problem_url: None
 tags: None
 memory_complexity: None

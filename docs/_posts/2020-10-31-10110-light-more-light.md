@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 10110 Light More Light
+title: 10110 - Light More Light
 problem_url: None
 tags: None
 memory_complexity: None

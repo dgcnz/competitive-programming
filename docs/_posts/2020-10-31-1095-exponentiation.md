@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1095 Exponentiation
+title: 1095 - Exponentiation
 problem_url: None
 tags: None
 memory_complexity: None

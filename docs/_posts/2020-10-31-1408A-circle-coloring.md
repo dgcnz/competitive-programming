@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1408A Circle Coloring
+title: 1408A - Circle Coloring
 problem_url: None
 tags: None
 memory_complexity: None

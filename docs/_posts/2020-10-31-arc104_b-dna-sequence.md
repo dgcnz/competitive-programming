@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc104_B Dna Sequence
+title: arc104_b - Dna Sequence
 problem_url: None
 tags: None
 memory_complexity: None

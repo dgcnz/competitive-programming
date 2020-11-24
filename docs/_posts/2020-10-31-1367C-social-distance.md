@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1367C Social Distance
+title: 1367C - Social Distance
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc073_D Joisinos Travel
+title: abc073_d - Joisinos Travel
 problem_url: None
 tags: None
 memory_complexity: None

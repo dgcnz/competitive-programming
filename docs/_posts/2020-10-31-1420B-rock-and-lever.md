@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1420B Rock And Lever
+title: 1420B - Rock And Lever
 problem_url: None
 tags: None
 memory_complexity: None

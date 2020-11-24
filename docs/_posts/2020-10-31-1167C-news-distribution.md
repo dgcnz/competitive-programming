@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1167C News Distribution
+title: 1167C - News Distribution
 problem_url: None
 tags: None
 memory_complexity: None

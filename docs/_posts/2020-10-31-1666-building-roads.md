@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1666 Building Roads
+title: 1666 - Building Roads
 problem_url: None
 tags: None
 memory_complexity: None

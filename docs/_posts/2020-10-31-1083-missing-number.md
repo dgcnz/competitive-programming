@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1083 Missing Number
+title: 1083 - Missing Number
 problem_url: None
 tags: None
 memory_complexity: None

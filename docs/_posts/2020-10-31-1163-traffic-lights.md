@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1163 Traffic Lights
+title: 1163 - Traffic Lights
 problem_url: None
 tags: None
 memory_complexity: None

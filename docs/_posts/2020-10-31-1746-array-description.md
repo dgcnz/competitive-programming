@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1746 Array Description
+title: 1746 - Array Description
 problem_url: None
 tags: None
 memory_complexity: None

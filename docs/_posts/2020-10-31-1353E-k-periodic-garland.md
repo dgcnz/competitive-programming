@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1353E K Periodic Garland
+title: 1353E - K Periodic Garland
 problem_url: None
 tags: None
 memory_complexity: None

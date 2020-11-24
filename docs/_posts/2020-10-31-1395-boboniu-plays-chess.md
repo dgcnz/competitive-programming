@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1395 Boboniu Plays Chess
+title: 1395 - Boboniu Plays Chess
 problem_url: None
 tags: None
 memory_complexity: None

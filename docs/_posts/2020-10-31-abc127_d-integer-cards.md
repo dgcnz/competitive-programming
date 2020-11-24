@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc127_D Integer Cards
+title: abc127_d - Integer Cards
 problem_url: None
 tags: None
 memory_complexity: None

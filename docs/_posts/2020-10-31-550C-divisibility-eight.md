@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 550C Divisibility Eight
+title: 550C - Divisibility Eight
 problem_url: None
 tags: None
 memory_complexity: None

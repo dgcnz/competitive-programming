@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1683 Planets And Kingdoms
+title: 1683 - Planets And Kingdoms
 problem_url: None
 tags: None
 memory_complexity: None

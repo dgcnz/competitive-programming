@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 448D Multiplication Table
+title: 448D - Multiplication Table
 problem_url: None
 tags: None
 memory_complexity: None

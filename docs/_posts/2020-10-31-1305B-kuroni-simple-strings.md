@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1305B Kuroni Simple Strings
+title: 1305B - Kuroni Simple Strings
 problem_url: None
 tags: None
 memory_complexity: None

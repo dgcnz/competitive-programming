@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1406C Link Cut Centroids
+title: 1406C - Link Cut Centroids
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1305C Kuroni Impossible Calculation
+title: 1305C - Kuroni Impossible Calculation
 problem_url: None
 tags: None
 memory_complexity: None

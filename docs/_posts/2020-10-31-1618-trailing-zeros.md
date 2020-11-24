@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1618 Trailing Zeros
+title: 1618 - Trailing Zeros
 problem_url: None
 tags: None
 memory_complexity: None

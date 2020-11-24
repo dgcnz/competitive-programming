@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc171_D Replacing
+title: abc171_d - Replacing
 problem_url: None
 tags: None
 memory_complexity: None

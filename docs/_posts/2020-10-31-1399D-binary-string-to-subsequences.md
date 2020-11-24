@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1399D Binary String To Subsequences
+title: 1399D - Binary String To Subsequences
 problem_url: None
 tags: None
 memory_complexity: None

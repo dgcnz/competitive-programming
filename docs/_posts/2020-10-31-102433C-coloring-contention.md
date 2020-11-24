@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 102433C Coloring Contention
+title: 102433C - Coloring Contention
 problem_url: None
 tags: None
 memory_complexity: None

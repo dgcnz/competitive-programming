@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 873B Balanced Substring
+title: 873B - Balanced Substring
 problem_url: None
 tags: None
 memory_complexity: None

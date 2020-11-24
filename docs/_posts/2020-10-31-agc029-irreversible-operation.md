@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Agc029 Irreversible Operation
+title: agc029 - Irreversible Operation
 problem_url: None
 tags: None
 memory_complexity: None

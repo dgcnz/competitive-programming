@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1187E Tree Painting
+title: 1187E - Tree Painting
 problem_url: None
 tags: None
 memory_complexity: None

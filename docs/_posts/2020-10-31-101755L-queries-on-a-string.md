@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101755L Queries On A String
+title: 101755L - Queries On A String
 problem_url: None
 tags: None
 memory_complexity: None

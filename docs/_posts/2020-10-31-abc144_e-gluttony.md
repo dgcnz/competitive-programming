@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc144_E Gluttony
+title: abc144_e - Gluttony
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1342B Binary Period
+title: 1342B - Binary Period
 problem_url: None
 tags: None
 memory_complexity: None

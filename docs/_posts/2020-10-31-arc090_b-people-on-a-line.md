@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc090_B People On A Line
+title: arc090_b - People On A Line
 problem_url: None
 tags: None
 memory_complexity: None

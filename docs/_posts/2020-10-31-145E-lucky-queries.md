@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 145E Lucky Queries
+title: 145E - Lucky Queries
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1624 Chessboard And Queens
+title: 1624 - Chessboard And Queens
 problem_url: None
 tags: None
 memory_complexity: None

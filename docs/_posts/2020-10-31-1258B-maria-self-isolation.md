@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1258B Maria Self Isolation
+title: 1258B - Maria Self Isolation
 problem_url: None
 tags: None
 memory_complexity: None

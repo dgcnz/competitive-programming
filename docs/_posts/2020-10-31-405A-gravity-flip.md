@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 405A Gravity Flip
+title: 405A - Gravity Flip
 problem_url: None
 tags: None
 memory_complexity: None

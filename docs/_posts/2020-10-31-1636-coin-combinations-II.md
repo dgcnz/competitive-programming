@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1636 Coin Combinations Ii
+title: 1636 - Coin Combinations Ii
 problem_url: None
 tags: None
 memory_complexity: None

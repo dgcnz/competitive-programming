@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1135 Distance Queries
+title: 1135 - Distance Queries
 problem_url: None
 tags: None
 memory_complexity: None

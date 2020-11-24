@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1076D Edge Deletion
+title: 1076D - Edge Deletion
 problem_url: None
 tags: None
 memory_complexity: None

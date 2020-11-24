@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1668 Building Teams
+title: 1668 - Building Teams
 problem_url: None
 tags: None
 memory_complexity: None

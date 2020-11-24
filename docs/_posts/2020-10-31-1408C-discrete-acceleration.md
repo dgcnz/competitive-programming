@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1408C Discrete Acceleration
+title: 1408C - Discrete Acceleration
 problem_url: None
 tags: None
 memory_complexity: None

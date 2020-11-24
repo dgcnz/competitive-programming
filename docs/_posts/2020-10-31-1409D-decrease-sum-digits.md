@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1409D Decrease Sum Digits
+title: 1409D - Decrease Sum Digits
 problem_url: None
 tags: None
 memory_complexity: None

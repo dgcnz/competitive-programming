@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 812C Sagheer Nubian Market
+title: 812C - Sagheer Nubian Market
 problem_url: None
 tags: None
 memory_complexity: None

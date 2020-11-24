@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1633 Dice Combinations
+title: 1633 - Dice Combinations
 problem_url: None
 tags: None
 memory_complexity: None

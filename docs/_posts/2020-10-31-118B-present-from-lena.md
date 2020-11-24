@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 118B Present From Lena
+title: 118B - Present From Lena
 problem_url: None
 tags: None
 memory_complexity: None

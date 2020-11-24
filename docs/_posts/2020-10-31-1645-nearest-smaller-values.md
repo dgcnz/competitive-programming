@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1645 Nearest Smaller Values
+title: 1645 - Nearest Smaller Values
 problem_url: None
 tags: None
 memory_complexity: None

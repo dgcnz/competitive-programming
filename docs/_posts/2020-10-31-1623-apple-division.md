@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1623 Apple Division
+title: 1623 - Apple Division
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 791A Bear Big Brother
+title: 791A - Bear Big Brother
 problem_url: None
 tags: None
 memory_complexity: None

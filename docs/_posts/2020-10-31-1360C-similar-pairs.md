@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1360C Similar Pairs
+title: 1360C - Similar Pairs
 problem_url: None
 tags: None
 memory_complexity: None

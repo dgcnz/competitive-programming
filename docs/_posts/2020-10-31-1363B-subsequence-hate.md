@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1363B Subsequence Hate
+title: 1363B - Subsequence Hate
 problem_url: None
 tags: None
 memory_complexity: None

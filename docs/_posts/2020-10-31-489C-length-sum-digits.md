@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 489C Length Sum Digits
+title: 489C - Length Sum Digits
 problem_url: None
 tags: None
 memory_complexity: None

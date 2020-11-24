@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1366A Shovels Swords
+title: 1366A - Shovels Swords
 problem_url: None
 tags: None
 memory_complexity: None

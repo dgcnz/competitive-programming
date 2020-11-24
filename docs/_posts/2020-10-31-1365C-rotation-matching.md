@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1365C Rotation Matching
+title: 1365C - Rotation Matching
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1398C Good Subarrays
+title: 1398C - Good Subarrays
 problem_url: None
 tags: None
 memory_complexity: None

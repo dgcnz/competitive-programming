@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1341B Nastya And Door
+title: 1341B - Nastya And Door
 problem_url: None
 tags: None
 memory_complexity: None

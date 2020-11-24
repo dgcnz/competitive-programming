@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpe Knapsack 2
+title: dpE - Knapsack 2
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 691D Swaps In Permutation
+title: 691D - Swaps In Permutation
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc175_C Walking Takahashi
+title: abc175_c - Walking Takahashi
 problem_url: None
 tags: None
 memory_complexity: None

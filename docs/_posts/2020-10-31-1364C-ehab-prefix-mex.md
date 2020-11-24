@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1364C Ehab Prefix Mex
+title: 1364C - Ehab Prefix Mex
 problem_url: None
 tags: None
 memory_complexity: None

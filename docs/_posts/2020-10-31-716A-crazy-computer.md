@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 716A Crazy Computer
+title: 716A - Crazy Computer
 problem_url: None
 tags: None
 memory_complexity: None

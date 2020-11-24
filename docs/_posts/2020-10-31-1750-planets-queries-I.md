@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1750 Planets Queries I
+title: 1750 - Planets Queries I
 problem_url: None
 tags: None
 memory_complexity: None

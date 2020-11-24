@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1405C Balanced Bitstring
+title: 1405C - Balanced Bitstring
 problem_url: None
 tags: None
 memory_complexity: None

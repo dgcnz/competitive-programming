@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 761C Dasha And Password
+title: 761C - Dasha And Password
 problem_url: None
 tags: None
 memory_complexity: None

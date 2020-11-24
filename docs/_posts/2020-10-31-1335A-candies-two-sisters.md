@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1335A Candies Two Sisters
+title: 1335A - Candies Two Sisters
 problem_url: None
 tags: None
 memory_complexity: None

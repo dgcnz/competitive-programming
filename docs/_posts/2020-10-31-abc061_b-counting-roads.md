@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc061_B Counting Roads
+title: abc061_b - Counting Roads
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1362D Johnny Contribution
+title: 1362D - Johnny Contribution
 problem_url: None
 tags: None
 memory_complexity: None

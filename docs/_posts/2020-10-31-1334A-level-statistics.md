@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1334A Level Statistics
+title: 1334A - Level Statistics
 problem_url: None
 tags: None
 memory_complexity: None

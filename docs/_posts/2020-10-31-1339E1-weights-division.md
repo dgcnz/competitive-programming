@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1339E1 Weights Division
+title: 1339E1 - Weights Division
 problem_url: None
 tags: None
 memory_complexity: None

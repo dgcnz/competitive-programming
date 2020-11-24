@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1111C Creative Snap
+title: 1111C - Creative Snap
 problem_url: None
 tags: None
 memory_complexity: None

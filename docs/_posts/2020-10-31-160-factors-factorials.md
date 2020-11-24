@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 160 Factors Factorials
+title: 160 - Factors Factorials
 problem_url: None
 tags: None
 memory_complexity: None

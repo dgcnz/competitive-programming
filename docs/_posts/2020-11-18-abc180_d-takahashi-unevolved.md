@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc180_D Takahashi Unevolved
+title: abc180_d - Takahashi Unevolved
 problem_url: None
 tags: None
 memory_complexity: None

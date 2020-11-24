@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1401A Distance Axis
+title: 1401A - Distance Axis
 problem_url: None
 tags: None
 memory_complexity: None

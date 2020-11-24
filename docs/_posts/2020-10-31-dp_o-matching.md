@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dp_O Matching
+title: dp_o - Matching
 problem_url: None
 tags: None
 memory_complexity: None

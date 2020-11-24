@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1368B Codeforces Subsequences
+title: 1368B - Codeforces Subsequences
 problem_url: None
 tags: None
 memory_complexity: None

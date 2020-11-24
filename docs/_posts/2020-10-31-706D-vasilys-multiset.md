@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 706D Vasilys Multiset
+title: 706D - Vasilys Multiset
 problem_url: None
 tags: None
 memory_complexity: None

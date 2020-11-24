@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 665C Simple Strings
+title: 665C - Simple Strings
 problem_url: None
 tags: None
 memory_complexity: None

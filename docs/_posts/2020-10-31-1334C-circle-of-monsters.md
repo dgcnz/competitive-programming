@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1334C Circle Of Monsters
+title: 1334C - Circle Of Monsters
 problem_url: None
 tags: None
 memory_complexity: None

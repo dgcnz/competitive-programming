@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 907 Winterim Backpacking Trip
+title: 907 - Winterim Backpacking Trip
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1370B Gcd Compression
+title: 1370B - Gcd Compression
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1635 Coin Combinations I
+title: 1635 - Coin Combinations I
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1680 Longest Flight Route
+title: 1680 - Longest Flight Route
 problem_url: None
 tags: None
 memory_complexity: None

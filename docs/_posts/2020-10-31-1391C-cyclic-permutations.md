@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1391C Cyclic Permutations
+title: 1391C - Cyclic Permutations
 problem_url: None
 tags: None
 memory_complexity: None

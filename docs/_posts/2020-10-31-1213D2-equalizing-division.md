@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1213D2 Equalizing Division
+title: 1213D2 - Equalizing Division
 problem_url: None
 tags: None
 memory_complexity: None

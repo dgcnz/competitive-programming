@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1313A Fast Food Restaurant
+title: 1313A - Fast Food Restaurant
 problem_url: None
 tags: None
 memory_complexity: None

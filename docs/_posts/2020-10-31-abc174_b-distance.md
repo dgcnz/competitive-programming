@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc174_B Distance
+title: abc174_b - Distance
 problem_url: None
 tags: None
 memory_complexity: None

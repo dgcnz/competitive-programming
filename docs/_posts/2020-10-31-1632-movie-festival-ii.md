@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1632 Movie Festival Ii
+title: 1632 - Movie Festival Ii
 problem_url: None
 tags: None
 memory_complexity: None

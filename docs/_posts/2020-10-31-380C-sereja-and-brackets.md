@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 380C Sereja And Brackets
+title: 380C - Sereja And Brackets
 problem_url: None
 tags: None
 memory_complexity: None

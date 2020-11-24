@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1305A Kuroni And Gifts
+title: 1305A - Kuroni And Gifts
 problem_url: None
 tags: None
 memory_complexity: None

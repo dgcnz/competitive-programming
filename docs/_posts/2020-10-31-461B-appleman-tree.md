@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 461B Appleman Tree
+title: 461B - Appleman Tree
 problem_url: None
 tags: None
 memory_complexity: None

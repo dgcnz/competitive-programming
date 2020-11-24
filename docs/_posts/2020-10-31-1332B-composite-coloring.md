@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1332B Composite Coloring
+title: 1332B - Composite Coloring
 problem_url: None
 tags: None
 memory_complexity: None

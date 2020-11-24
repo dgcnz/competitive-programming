@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc146_C Buy Integer
+title: abc146_c - Buy Integer
 problem_url: None
 tags: None
 memory_complexity: None

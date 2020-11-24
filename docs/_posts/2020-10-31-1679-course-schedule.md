@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1679 Course Schedule
+title: 1679 - Course Schedule
 problem_url: None
 tags: None
 memory_complexity: None

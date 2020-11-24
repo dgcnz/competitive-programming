@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1316B String Modification
+title: 1316B - String Modification
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1409B Minimum Product
+title: 1409B - Minimum Product
 problem_url: None
 tags: None
 memory_complexity: None

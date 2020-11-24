@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc179_A Plural Form
+title: abc179_a - Plural Form
 problem_url: None
 tags: None
 memory_complexity: None

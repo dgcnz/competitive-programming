@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 741B Arpa Weak Amphitheater Valuable Hoses
+title: 741B - Arpa Weak Amphitheater Valuable Hoses
 problem_url: None
 tags: None
 memory_complexity: None

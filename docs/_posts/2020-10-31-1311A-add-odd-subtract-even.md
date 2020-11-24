@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1311A Add Odd Subtract Even
+title: 1311A - Add Odd Subtract Even
 problem_url: None
 tags: None
 memory_complexity: None

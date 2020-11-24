@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1688 Company Queries Ii
+title: 1688 - Company Queries Ii
 problem_url: None
 tags: None
 memory_complexity: None

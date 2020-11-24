@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc172_B Minor Change
+title: abc172_b - Minor Change
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1136 Counting Paths
+title: 1136 - Counting Paths
 problem_url: None
 tags: None
 memory_complexity: None

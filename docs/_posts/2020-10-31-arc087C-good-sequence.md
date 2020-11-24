@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc087C Good Sequence
+title: arc087C - Good Sequence
 problem_url: None
 tags: None
 memory_complexity: None

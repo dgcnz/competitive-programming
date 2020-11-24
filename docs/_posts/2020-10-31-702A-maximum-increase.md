@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 702A Maximum Increase
+title: 702A - Maximum Increase
 problem_url: None
 tags: None
 memory_complexity: None

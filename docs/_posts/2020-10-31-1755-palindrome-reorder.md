@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1755 Palindrome Reorder
+title: 1755 - Palindrome Reorder
 problem_url: None
 tags: None
 memory_complexity: None

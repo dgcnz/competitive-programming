@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1397A Juggling Letters
+title: 1397A - Juggling Letters
 problem_url: None
 tags: None
 memory_complexity: None

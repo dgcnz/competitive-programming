@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc178_F Contrast
+title: abc178_f - Contrast
 problem_url: None
 tags: None
 memory_complexity: None

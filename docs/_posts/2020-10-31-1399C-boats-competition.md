@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1399C Boats Competition
+title: 1399C - Boats Competition
 problem_url: None
 tags: None
 memory_complexity: None

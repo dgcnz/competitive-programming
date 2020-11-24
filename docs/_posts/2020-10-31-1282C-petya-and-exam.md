@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1282C Petya And Exam
+title: 1282C - Petya And Exam
 problem_url: None
 tags: None
 memory_complexity: None

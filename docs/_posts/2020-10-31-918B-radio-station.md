@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 918B Radio Station
+title: 918B - Radio Station
 problem_url: None
 tags: None
 memory_complexity: None

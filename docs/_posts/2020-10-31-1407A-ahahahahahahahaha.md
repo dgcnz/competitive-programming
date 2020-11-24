@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1407A Ahahahahahahahaha
+title: 1407A - Ahahahahahahahaha
 problem_url: None
 tags: None
 memory_complexity: None

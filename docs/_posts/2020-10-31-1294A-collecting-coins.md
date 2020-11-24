@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1294A Collecting Coins
+title: 1294A - Collecting Coins
 problem_url: None
 tags: None
 memory_complexity: None

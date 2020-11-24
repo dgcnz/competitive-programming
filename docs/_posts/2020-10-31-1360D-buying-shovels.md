@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1360D Buying Shovels
+title: 1360D - Buying Shovels
 problem_url: None
 tags: None
 memory_complexity: None

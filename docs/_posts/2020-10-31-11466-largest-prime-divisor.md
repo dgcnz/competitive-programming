@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11466 Largest Prime Divisor
+title: 11466 - Largest Prime Divisor
 problem_url: None
 tags: None
 memory_complexity: None

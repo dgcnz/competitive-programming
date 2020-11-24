@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11B Jumping Jack
+title: 11B - Jumping Jack
 problem_url: None
 tags: None
 memory_complexity: None

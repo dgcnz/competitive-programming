@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1294B Collecting Packages
+title: 1294B - Collecting Packages
 problem_url: None
 tags: None
 memory_complexity: None

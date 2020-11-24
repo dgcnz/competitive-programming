@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1686 Coin Collector
+title: 1686 - Coin Collector
 problem_url: None
 tags: None
 memory_complexity: None

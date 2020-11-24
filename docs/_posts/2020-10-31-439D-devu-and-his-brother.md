@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 439D Devu And His Brother
+title: 439D - Devu And His Brother
 problem_url: None
 tags: None
 memory_complexity: None

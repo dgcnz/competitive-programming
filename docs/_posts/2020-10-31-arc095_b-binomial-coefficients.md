@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc095_B Binomial Coefficients
+title: arc095_b - Binomial Coefficients
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc169_A Multiplication 1
+title: abc169_a - Multiplication 1
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1634 Minimizing Coins
+title: 1634 - Minimizing Coins
 problem_url: None
 tags: None
 memory_complexity: None

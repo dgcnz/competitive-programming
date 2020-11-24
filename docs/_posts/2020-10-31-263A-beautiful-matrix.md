@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 263A Beautiful Matrix
+title: 263A - Beautiful Matrix
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1409C Yet Another Array Restoration
+title: 1409C - Yet Another Array Restoration
 problem_url: None
 tags: None
 memory_complexity: None

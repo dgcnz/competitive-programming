@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1085D Minimum Diameter Tree
+title: 1085D - Minimum Diameter Tree
 problem_url: None
 tags: None
 memory_complexity: None

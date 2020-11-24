@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1393B Applejack Storages
+title: 1393B - Applejack Storages
 problem_url: None
 tags: None
 memory_complexity: None

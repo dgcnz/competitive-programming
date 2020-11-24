@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1733 Finding Periods
+title: 1733 - Finding Periods
 problem_url: None
 tags: None
 memory_complexity: None

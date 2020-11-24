@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1744 Rectangle Cutting
+title: 1744 - Rectangle Cutting
 problem_url: None
 tags: None
 memory_complexity: None

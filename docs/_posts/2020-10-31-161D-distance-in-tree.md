@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 161D Distance In Tree
+title: 161D - Distance In Tree
 problem_url: None
 tags: None
 memory_complexity: None

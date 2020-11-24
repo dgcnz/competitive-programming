@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1641 Sum Of Three Values
+title: 1641 - Sum Of Three Values
 problem_url: None
 tags: None
 memory_complexity: None

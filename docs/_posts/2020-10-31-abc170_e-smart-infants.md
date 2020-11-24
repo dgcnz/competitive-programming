@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc170_E Smart Infants
+title: abc170_e - Smart Infants
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1082 Sum Of Divisors
+title: 1082 - Sum Of Divisors
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1364B Most Distanced Subsequence
+title: 1364B - Most Distanced Subsequence
 problem_url: None
 tags: None
 memory_complexity: None

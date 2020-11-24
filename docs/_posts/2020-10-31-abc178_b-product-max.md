@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc178_B Product Max
+title: abc178_b - Product Max
 problem_url: None
 tags: None
 memory_complexity: None

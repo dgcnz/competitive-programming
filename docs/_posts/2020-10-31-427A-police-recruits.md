@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 427A Police Recruits
+title: 427A - Police Recruits
 problem_url: None
 tags: None
 memory_complexity: None

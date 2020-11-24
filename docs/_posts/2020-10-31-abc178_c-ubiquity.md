@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc178_C Ubiquity
+title: abc178_c - Ubiquity
 problem_url: None
 tags: None
 memory_complexity: None

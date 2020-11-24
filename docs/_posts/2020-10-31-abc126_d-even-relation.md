@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc126_D Even Relation
+title: abc126_d - Even Relation
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpk Stones
+title: dpK - Stones
 problem_url: None
 tags: None
 memory_complexity: None

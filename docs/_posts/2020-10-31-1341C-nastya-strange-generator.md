@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1341C Nastya Strange Generator
+title: 1341C - Nastya Strange Generator
 problem_url: None
 tags: None
 memory_complexity: None

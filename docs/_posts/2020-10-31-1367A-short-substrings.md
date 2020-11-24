@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1367A Short Substrings
+title: 1367A - Short Substrings
 problem_url: None
 tags: None
 memory_complexity: None

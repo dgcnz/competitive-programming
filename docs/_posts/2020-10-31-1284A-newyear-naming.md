@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1284A Newyear Naming
+title: 1284A - Newyear Naming
 problem_url: None
 tags: None
 memory_complexity: None

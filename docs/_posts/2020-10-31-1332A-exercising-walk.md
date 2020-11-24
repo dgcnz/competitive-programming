@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1332A Exercising Walk
+title: 1332A - Exercising Walk
 problem_url: None
 tags: None
 memory_complexity: None

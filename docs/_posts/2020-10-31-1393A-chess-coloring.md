@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1393A Chess Coloring
+title: 1393A - Chess Coloring
 problem_url: None
 tags: None
 memory_complexity: None

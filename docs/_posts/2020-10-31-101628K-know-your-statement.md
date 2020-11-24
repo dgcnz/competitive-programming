@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101628K Know Your Statement
+title: 101628K - Know Your Statement
 problem_url: None
 tags: None
 memory_complexity: None

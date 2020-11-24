@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1362A Johnny Ancient Computer
+title: 1362A - Johnny Ancient Computer
 problem_url: None
 tags: None
 memory_complexity: None

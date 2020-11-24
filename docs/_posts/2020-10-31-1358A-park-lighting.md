@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1358A Park Lighting
+title: 1358A - Park Lighting
 problem_url: None
 tags: None
 memory_complexity: None

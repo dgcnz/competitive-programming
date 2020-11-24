@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1676 Road Construction
+title: 1676 - Road Construction
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 446B Dzy Loves Modification
+title: 446B - Dzy Loves Modification
 problem_url: None
 tags: None
 memory_complexity: None

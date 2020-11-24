@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11452 Dancing The Cheeky Cheeky
+title: 11452 - Dancing The Cheeky Cheeky
 problem_url: None
 tags: None
 memory_complexity: None

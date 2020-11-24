@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 271A Beautiful Year
+title: 271A - Beautiful Year
 problem_url: None
 tags: None
 memory_complexity: None

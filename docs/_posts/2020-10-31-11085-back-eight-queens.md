@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11085 Back Eight Queens
+title: 11085 - Back Eight Queens
 problem_url: None
 tags: None
 memory_complexity: None

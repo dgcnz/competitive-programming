@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1144F Graph Without Long Directed Paths
+title: 1144F - Graph Without Long Directed Paths
 problem_url: None
 tags: None
 memory_complexity: None

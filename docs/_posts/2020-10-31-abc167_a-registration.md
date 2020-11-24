@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc167_A Registration
+title: abc167_a - Registration
 problem_url: None
 tags: None
 memory_complexity: None

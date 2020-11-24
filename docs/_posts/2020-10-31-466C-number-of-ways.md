@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 466C Number Of Ways
+title: 466C - Number Of Ways
 problem_url: None
 tags: None
 memory_complexity: None

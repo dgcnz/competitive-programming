@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc172_C Tsundoku
+title: abc172_c - Tsundoku
 problem_url: None
 tags: None
 memory_complexity: None

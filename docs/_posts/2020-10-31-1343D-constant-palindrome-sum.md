@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1343D Constant Palindrome Sum
+title: 1343D - Constant Palindrome Sum
 problem_url: None
 tags: None
 memory_complexity: None

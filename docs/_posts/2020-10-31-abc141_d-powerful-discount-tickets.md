@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc141_D Powerful Discount Tickets
+title: abc141_d - Powerful Discount Tickets
 problem_url: None
 tags: None
 memory_complexity: None

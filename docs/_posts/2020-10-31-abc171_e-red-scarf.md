@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc171_E Red Scarf
+title: abc171_e - Red Scarf
 problem_url: None
 tags: None
 memory_complexity: None

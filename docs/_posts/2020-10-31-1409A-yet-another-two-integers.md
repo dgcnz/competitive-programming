@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1409A Yet Another Two Integers
+title: 1409A - Yet Another Two Integers
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 431A Black Square
+title: 431A - Black Square
 problem_url: None
 tags: None
 memory_complexity: None

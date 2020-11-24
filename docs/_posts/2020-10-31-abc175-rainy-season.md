@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc175 Rainy Season
+title: abc175 - Rainy Season
 problem_url: None
 tags: None
 memory_complexity: None

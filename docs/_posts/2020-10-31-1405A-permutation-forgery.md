@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1405A Permutation Forgery
+title: 1405A - Permutation Forgery
 problem_url: None
 tags: None
 memory_complexity: None

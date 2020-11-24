@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 102694E Filthy Rich Trees
+title: 102694E - Filthy Rich Trees
 problem_url: https://codeforces.com/gym/102694/problem/E
 tags: segment_tree, euler_tour_technique
 memory_complexity: O(n)

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1322A Unusual Competitions
+title: 1322A - Unusual Competitions
 problem_url: None
 tags: None
 memory_complexity: None

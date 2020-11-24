@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1660 Subarray Sums I
+title: 1660 - Subarray Sums I
 problem_url: None
 tags: None
 memory_complexity: None

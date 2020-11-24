@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 510C Fox And Names
+title: 510C - Fox And Names
 problem_url: None
 tags: None
 memory_complexity: None

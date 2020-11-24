@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 651D Image Preview
+title: 651D - Image Preview
 problem_url: None
 tags: None
 memory_complexity: None

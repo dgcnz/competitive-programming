@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Arc108_A Sum And Product
+title: arc108_a - Sum And Product
 problem_url: https://atcoder.jp/contests/arc108/tasks/arc108_a
 tags: math, brute_force
 memory_complexity: O(1)

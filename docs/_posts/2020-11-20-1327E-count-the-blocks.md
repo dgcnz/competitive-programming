@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1327E Count The Blocks
+title: 1327E - Count The Blocks
 problem_url: https://codeforces.com/contest/1327/problem/E
 tags: math, combinatorics
 memory_complexity: O(n)

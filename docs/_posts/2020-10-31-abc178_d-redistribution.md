@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc178_D Redistribution
+title: abc178_d - Redistribution
 problem_url: None
 tags: None
 memory_complexity: None

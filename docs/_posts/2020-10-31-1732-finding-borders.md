@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1732 Finding Borders
+title: 1732 - Finding Borders
 problem_url: None
 tags: None
 memory_complexity: None

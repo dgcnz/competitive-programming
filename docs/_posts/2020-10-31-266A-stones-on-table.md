@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 266A Stones On Table
+title: 266A - Stones On Table
 problem_url: None
 tags: None
 memory_complexity: None

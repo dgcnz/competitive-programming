@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1195 Flight Discount
+title: 1195 - Flight Discount
 problem_url: None
 tags: None
 memory_complexity: None

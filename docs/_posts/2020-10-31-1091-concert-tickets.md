@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1091 Concert Tickets
+title: 1091 - Concert Tickets
 problem_url: None
 tags: None
 memory_complexity: None

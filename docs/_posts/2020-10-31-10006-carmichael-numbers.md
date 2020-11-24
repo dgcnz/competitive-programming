@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 10006 Carmichael Numbers
+title: 10006 - Carmichael Numbers
 problem_url: None
 tags: None
 memory_complexity: None

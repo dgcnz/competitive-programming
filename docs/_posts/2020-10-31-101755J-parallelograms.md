@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101755J Parallelograms
+title: 101755J - Parallelograms
 problem_url: None
 tags: None
 memory_complexity: None

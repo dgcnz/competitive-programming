@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 601A The Two Routes
+title: 601A - The Two Routes
 problem_url: None
 tags: None
 memory_complexity: None

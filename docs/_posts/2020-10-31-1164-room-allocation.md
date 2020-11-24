@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1164 Room Allocation
+title: 1164 - Room Allocation
 problem_url: None
 tags: None
 memory_complexity: None

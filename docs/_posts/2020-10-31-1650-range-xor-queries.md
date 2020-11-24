@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1650 Range Xor Queries
+title: 1650 - Range Xor Queries
 problem_url: None
 tags: None
 memory_complexity: None

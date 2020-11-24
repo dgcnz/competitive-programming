@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1643 Maximum Subarray Sum
+title: 1643 - Maximum Subarray Sum
 problem_url: None
 tags: None
 memory_complexity: None

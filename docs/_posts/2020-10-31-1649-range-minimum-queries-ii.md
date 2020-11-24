@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1649 Range Minimum Queries Ii
+title: 1649 - Range Minimum Queries Ii
 problem_url: None
 tags: None
 memory_complexity: None

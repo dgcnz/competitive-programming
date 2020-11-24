@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1398D Colored Rectangles
+title: 1398D - Colored Rectangles
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpn Slimes
+title: dpN - Slimes
 problem_url: None
 tags: None
 memory_complexity: None

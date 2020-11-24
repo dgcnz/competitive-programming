@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101498J Spilt The String
+title: 101498J - Spilt The String
 problem_url: https://codeforces.com/gym/101498/problem/J
 tags: brute-force, math
 memory_complexity: O(n)

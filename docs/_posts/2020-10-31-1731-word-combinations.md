@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1731 Word Combinations
+title: 1731 - Word Combinations
 problem_url: None
 tags: None
 memory_complexity: None

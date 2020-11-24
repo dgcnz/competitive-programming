@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1341A Nastya And Rice
+title: 1341A - Nastya And Rice
 problem_url: None
 tags: None
 memory_complexity: None

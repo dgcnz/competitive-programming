@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1642 Sum Of Four Values
+title: 1642 - Sum Of Four Values
 problem_url: None
 tags: None
 memory_complexity: None

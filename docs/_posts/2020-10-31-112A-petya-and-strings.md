@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 112A Petya And Strings
+title: 112A - Petya And Strings
 problem_url: None
 tags: None
 memory_complexity: None

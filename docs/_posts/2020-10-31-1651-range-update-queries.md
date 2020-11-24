@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1651 Range Update Queries
+title: 1651 - Range Update Queries
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Agc002_B Box And Ball
+title: agc002_b - Box And Ball
 problem_url: None
 tags: None
 memory_complexity: None

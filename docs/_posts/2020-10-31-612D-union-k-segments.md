@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 612D Union K Segments
+title: 612D - Union K Segments
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1407C Chocolate Bunny
+title: 1407C - Chocolate Bunny
 problem_url: None
 tags: None
 memory_complexity: None

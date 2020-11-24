@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1081 Common Divisors
+title: 1081 - Common Divisors
 problem_url: None
 tags: None
 memory_complexity: None

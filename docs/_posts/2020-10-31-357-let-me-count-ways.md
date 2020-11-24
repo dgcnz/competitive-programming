@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 357 Let Me Count Ways
+title: 357 - Let Me Count Ways
 problem_url: None
 tags: None
 memory_complexity: None

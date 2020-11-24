@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 753A Santa Claus Candies
+title: 753A - Santa Claus Candies
 problem_url: None
 tags: None
 memory_complexity: None

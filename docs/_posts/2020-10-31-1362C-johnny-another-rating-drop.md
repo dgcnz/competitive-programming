@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1362C Johnny Another Rating Drop
+title: 1362C - Johnny Another Rating Drop
 problem_url: None
 tags: None
 memory_complexity: None

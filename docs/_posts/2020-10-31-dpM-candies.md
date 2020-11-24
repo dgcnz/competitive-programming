@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpm Candies
+title: dpM - Candies
 problem_url: None
 tags: None
 memory_complexity: None

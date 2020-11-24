@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc054_C One Stroke Path
+title: abc054_c - One Stroke Path
 problem_url: None
 tags: None
 memory_complexity: None

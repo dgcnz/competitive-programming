@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1337C Linova Kingdom
+title: 1337C - Linova Kingdom
 problem_url: https://codeforces.com/contest/1337/problem/C
 tags: dfs, contribution_method
 memory_complexity: O(n)

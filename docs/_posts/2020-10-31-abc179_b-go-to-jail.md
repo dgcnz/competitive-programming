@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc179_B Go To Jail
+title: abc179_b - Go To Jail
 problem_url: None
 tags: None
 memory_complexity: None

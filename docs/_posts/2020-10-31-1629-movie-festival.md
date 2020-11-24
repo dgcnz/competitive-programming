@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1629 Movie Festival
+title: 1629 - Movie Festival
 problem_url: None
 tags: None
 memory_complexity: None

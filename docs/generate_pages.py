@@ -7,7 +7,7 @@ import pprint
 
 pp = pprint.PrettyPrinter(indent=4)
 
-TO_PARSE = ['../codeforces', '../atcoder', '../cses', '../uva']
+TO_PARSE = ['../codeforces', '../atcoder', '../cses', '../uva', '../spoj']
 # TO_PARSE = ['../codeforces/102694E-filthy-rich-trees.cpp']
 
 TEMPLATE = Template("""---
@@ -67,8 +67,10 @@ def main():
             }
 
             if payload['title'] is None:
-                alt_title = (' '.join(source_file.stem.split('-'))).title()
-                payload['title'] = alt_title
+                temp = source_file.stem.split('-')
+                code = temp[0]
+                alt_title = temp[1:]
+                payload['title'] = code + ' - ' + (' '.join(alt_title)).title()
 
             if 'url' in payload:
                 payload['problem_url'] = payload['url']

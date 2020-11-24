@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Yahoo_Procon2019_Qual_B Path
+title: yahoo_procon2019_qual_b - Path
 problem_url: None
 tags: None
 memory_complexity: None

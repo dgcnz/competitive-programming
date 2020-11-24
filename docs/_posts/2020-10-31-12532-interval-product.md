@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 12532 Interval Product
+title: 12532 - Interval Product
 problem_url: None
 tags: None
 memory_complexity: None

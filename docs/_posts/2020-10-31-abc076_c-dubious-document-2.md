@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc076_C Dubious Document 2
+title: abc076_c - Dubious Document 2
 problem_url: None
 tags: None
 memory_complexity: None

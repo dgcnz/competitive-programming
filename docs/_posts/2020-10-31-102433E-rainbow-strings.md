@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 102433E Rainbow Strings
+title: 102433E - Rainbow Strings
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc174_D Alter Altar
+title: abc174_d - Alter Altar
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1137 Subtree Queries
+title: 1137 - Subtree Queries
 problem_url: None
 tags: None
 memory_complexity: None

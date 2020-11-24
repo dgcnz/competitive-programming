@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 99B Help Chef Garasim
+title: 99B - Help Chef Garasim
 problem_url: None
 tags: None
 memory_complexity: None

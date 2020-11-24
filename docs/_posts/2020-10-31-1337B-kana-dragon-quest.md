@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1337B Kana Dragon Quest
+title: 1337B - Kana Dragon Quest
 problem_url: None
 tags: None
 memory_complexity: None

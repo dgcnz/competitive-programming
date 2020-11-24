@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Dpd Knapsack 1
+title: dpD - Knapsack 1
 problem_url: None
 tags: None
 memory_complexity: None

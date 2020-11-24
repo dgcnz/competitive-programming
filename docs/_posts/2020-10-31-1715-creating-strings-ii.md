@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1715 Creating Strings Ii
+title: 1715 - Creating Strings Ii
 problem_url: None
 tags: None
 memory_complexity: None

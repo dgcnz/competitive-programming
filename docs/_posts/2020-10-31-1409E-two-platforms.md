@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1409E Two Platforms
+title: 1409E - Two Platforms
 problem_url: None
 tags: None
 memory_complexity: None

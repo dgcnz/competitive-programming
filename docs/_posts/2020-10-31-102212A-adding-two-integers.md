@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 102212A Adding Two Integers
+title: 102212A - Adding Two Integers
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1312A Two Regular Polygons
+title: 1312A - Two Regular Polygons
 problem_url: None
 tags: None
 memory_complexity: None

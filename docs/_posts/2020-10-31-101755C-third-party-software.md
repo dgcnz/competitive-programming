@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 101755C Third Party Software
+title: 101755C - Third Party Software
 problem_url: None
 tags: None
 memory_complexity: None

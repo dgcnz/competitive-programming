@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1234A Equalize Prices Again
+title: 1234A - Equalize Prices Again
 problem_url: None
 tags: None
 memory_complexity: None

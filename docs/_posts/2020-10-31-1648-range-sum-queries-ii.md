@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1648 Range Sum Queries Ii
+title: 1648 - Range Sum Queries Ii
 problem_url: None
 tags: None
 memory_complexity: None

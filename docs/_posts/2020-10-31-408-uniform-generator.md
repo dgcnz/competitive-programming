@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 408 Uniform Generator
+title: 408 - Uniform Generator
 problem_url: None
 tags: None
 memory_complexity: None

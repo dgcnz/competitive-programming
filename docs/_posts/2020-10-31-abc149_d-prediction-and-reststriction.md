@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc149_D Prediction And Reststriction
+title: abc149_d - Prediction And Reststriction
 problem_url: None
 tags: None
 memory_complexity: None

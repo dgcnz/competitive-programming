@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1145 Increasing Subsequence
+title: 1145 - Increasing Subsequence
 problem_url: None
 tags: None
 memory_complexity: None

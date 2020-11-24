@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1640 Sum Of Two Values
+title: 1640 - Sum Of Two Values
 problem_url: None
 tags: None
 memory_complexity: None

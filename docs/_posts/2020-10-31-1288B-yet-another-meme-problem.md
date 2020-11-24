@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1288B Yet Another Meme Problem
+title: 1288B - Yet Another Meme Problem
 problem_url: None
 tags: None
 memory_complexity: None

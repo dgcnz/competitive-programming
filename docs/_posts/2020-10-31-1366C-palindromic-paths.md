@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1366C Palindromic Paths
+title: 1366C - Palindromic Paths
 problem_url: None
 tags: None
 memory_complexity: None

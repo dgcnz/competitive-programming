@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1675 Road Reparation
+title: 1675 - Road Reparation
 problem_url: None
 tags: None
 memory_complexity: None

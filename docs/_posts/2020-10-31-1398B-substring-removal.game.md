@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1398B Substring Removal.Game
+title: 1398B - Substring Removal.Game
 problem_url: None
 tags: None
 memory_complexity: None

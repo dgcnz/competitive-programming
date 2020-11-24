@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc172_D Sum Of Divisors
+title: abc172_d - Sum Of Divisors
 problem_url: None
 tags: None
 memory_complexity: None

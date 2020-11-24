@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 461A Appleman And Toastman
+title: 461A - Appleman And Toastman
 problem_url: None
 tags: None
 memory_complexity: None

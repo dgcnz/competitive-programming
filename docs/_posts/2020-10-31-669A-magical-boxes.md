@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 669A Magical Boxes
+title: 669A - Magical Boxes
 problem_url: None
 tags: None
 memory_complexity: None

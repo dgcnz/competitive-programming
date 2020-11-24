@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1076 Sliding Median
+title: 1076 - Sliding Median
 problem_url: None
 tags: None
 memory_complexity: None

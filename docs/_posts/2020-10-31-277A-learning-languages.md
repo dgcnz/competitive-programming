@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 277A Learning Languages
+title: 277A - Learning Languages
 problem_url: None
 tags: None
 memory_complexity: None

@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1337A Ichime Triangle
+title: 1337A - Ichime Triangle
 problem_url: None
 tags: None
 memory_complexity: None

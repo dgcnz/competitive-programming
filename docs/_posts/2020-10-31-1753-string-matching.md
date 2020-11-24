@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1753 String Matching
+title: 1753 - String Matching
 problem_url: None
 tags: None
 memory_complexity: None

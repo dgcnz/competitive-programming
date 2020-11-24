@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc171_C One Quadrillion And One Dalmatians
+title: abc171_c - One Quadrillion And One Dalmatians
 problem_url: None
 tags: None
 memory_complexity: None

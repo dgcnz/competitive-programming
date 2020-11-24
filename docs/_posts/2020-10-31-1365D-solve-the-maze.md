@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1365D Solve The Maze
+title: 1365D - Solve The Maze
 problem_url: None
 tags: None
 memory_complexity: None

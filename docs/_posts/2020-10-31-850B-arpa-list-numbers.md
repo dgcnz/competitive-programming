@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 850B Arpa List Numbers
+title: 850B - Arpa List Numbers
 problem_url: None
 tags: None
 memory_complexity: None

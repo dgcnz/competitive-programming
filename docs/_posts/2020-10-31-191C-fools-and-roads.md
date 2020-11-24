@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 191C Fools And Roads
+title: 191C - Fools And Roads
 problem_url: None
 tags: None
 memory_complexity: None

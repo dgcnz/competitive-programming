@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1392D Omkar Bed Wars
+title: 1392D - Omkar Bed Wars
 problem_url: None
 tags: None
 memory_complexity: None

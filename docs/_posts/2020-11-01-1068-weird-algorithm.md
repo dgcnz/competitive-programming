@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1068 Weird Algorithm
+title: 1068 - Weird Algorithm
 problem_url: None
 tags: None
 memory_complexity: None

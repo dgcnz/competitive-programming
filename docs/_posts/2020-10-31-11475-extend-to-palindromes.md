@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 11475 Extend To Palindromes
+title: 11475 - Extend To Palindromes
 problem_url: None
 tags: None
 memory_complexity: None

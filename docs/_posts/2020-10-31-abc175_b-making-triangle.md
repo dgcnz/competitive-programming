@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: Abc175_B Making Triangle
+title: abc175_b - Making Triangle
 problem_url: None
 tags: None
 memory_complexity: None

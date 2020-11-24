@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 1360A Minimal Square
+title: 1360A - Minimal Square
 problem_url: None
 tags: None
 memory_complexity: None

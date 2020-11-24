@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: 519D A B Interesting Substrings
+title: 519D - A B Interesting Substrings
 problem_url: None
 tags: None
 memory_complexity: None
