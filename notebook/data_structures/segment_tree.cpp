@@ -2,7 +2,7 @@
 
 using namespace std;
 
-const int NMAX = 10e4 + 11;
+const int NMAX = 1e4 + 11;
 
 int n, t[4 * NMAX];
 

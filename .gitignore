@@ -7,5 +7,9 @@ cses/unsolved/
 **.out.dSYM
 **.DS_Store
 google/
-project-euler/
 cpc/
+fhc/
+rpc/
+testing/
+experimental.cpp
+csacademy/ieeextreme14
