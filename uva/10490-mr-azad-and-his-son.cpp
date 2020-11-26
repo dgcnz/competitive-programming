@@ -11,7 +11,7 @@
  * @thinking_time       2
  * @coding_time         5
  * @time_complexity     O(\sqrt{2^n})
- * @memory_complexity   O(n)
+ * @memory_complexity   O(1)
  * @idea
  * - Testing primality up to the square root does the trick.
  *
