@@ -1,22 +1,3 @@
-/** @file
- * @date                YY-MM-DD
- * @url                 https://url.com
- * @tags                math, sorting
- * @status              AC
- * @score               0
- * @difficulty          0
- * @editorial           no
- * @reading_time        000
- * @thinking_time       000
- * @coding_time         000
- * @time_complexity     O(n)
- * @memory_complexity   O(n)
- * @idea
- *
- *
- * @endidea
- */
-
 #ifdef DBG_MACRO_NO_WARNING
 #include <dbg.h>
 #endif
@@ -46,7 +27,26 @@ void write(InputIterator first, InputIterator last, const char *delim = "\n")
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
-    int t;
-    cin >> t;
+    int n, k;
+    cin >> n >> k;
+
+    vector<vi> t(n, vi(n));
+    for (auto &ti : t)
+        read_n(ti.begin(), n);
+
+    vi a(n);
+    for (int i = 0; i < n; ++i)
+        a[i] = i;
+
+    int ans = 0;
+    do
+    {
+        int cur = 0;
+        for (int i = 0; i < n; ++i)
+            cur += t[a[i]][a[(i + 1) % n]];
+        ans += cur == k;
+    } while (next_permutation(a.begin() + 1, a.end()));
+
+    cout << ans << endl;
     return 0;
 }

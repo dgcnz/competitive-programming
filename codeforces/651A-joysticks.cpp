@@ -1,22 +1,3 @@
-/** @file
- * @date                YY-MM-DD
- * @url                 https://url.com
- * @tags                math, sorting
- * @status              AC
- * @score               0
- * @difficulty          0
- * @editorial           no
- * @reading_time        000
- * @thinking_time       000
- * @coding_time         000
- * @time_complexity     O(n)
- * @memory_complexity   O(n)
- * @idea
- *
- *
- * @endidea
- */
-
 #ifdef DBG_MACRO_NO_WARNING
 #include <dbg.h>
 #endif
@@ -46,7 +27,30 @@ void write(InputIterator first, InputIterator last, const char *delim = "\n")
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
-    int t;
-    cin >> t;
+    int a1, a2;
+    cin >> a1 >> a2;
+
+    int t = 0;
+
+    if (a1 < a2)
+        swap(a1, a2);
+
+    while (a1 != 0)
+    {
+        int delta = a1 % 2 == 0 ? (a1 - 1) / 2 : a1 / 2;
+        // dbg(a1, a2, delta);
+        if (delta == 0)
+        {
+            t += a1 == 2;
+            break;
+        }
+
+        t += delta;
+        a1 -= 2 * delta;
+        a2 += delta;
+        swap(a1, a2);
+    }
+
+    cout << t << endl;
     return 0;
 }
