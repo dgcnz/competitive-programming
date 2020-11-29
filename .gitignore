@@ -7,13 +7,18 @@ cses/unsolved/
 **.out.dSYM
 **.DS_Store
 google/
-project-euler/
 cpc/
+fhc/
+rpc/
+testing/
+experimental.cpp
+csacademy/ieeextreme14
 experimental.cpp
 env/
 .vim/
 **/unsolved/
 .jekyll-cache
+<<<<<<< HEAD
 docs/.jekyll-cache/
 docs/xml/
 docs/__pycache__/
@@ -22,3 +27,4 @@ docs/env/
 docs/_site/
 docs/_site/*
 **/.jekyll-cache
+notebook/
