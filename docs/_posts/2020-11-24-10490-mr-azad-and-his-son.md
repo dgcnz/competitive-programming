@@ -4,7 +4,7 @@ mathjax: true
 title: 10490 - Mr Azad And His Son
 problem_url: https://onlinejudge.org/index.php?option=com_onlinejudge&Itemid=8&page=show_problem&problem=1431
 tags: number_theory, primes
-memory_complexity: O(n)
+memory_complexity: O(1)
 time_complexity: O(\sqrt{2^n})
 ---
 

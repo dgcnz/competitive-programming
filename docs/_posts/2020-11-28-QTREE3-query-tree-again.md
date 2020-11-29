@@ -1,7 +1,7 @@
 ---
 layout: post
 mathjax: true
-title: qtree3 - Query Tree Again
+title: QTREE3 - Query Tree Again
 problem_url: None
 tags: None
 memory_complexity: None
