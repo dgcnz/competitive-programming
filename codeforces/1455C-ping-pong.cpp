@@ -24,9 +24,9 @@
  *
  * If Bob responds to any of Alice's $i \in {1, 2, ..., x - 1}$ serve, then
  * Alice's best chance is to not respond until Bob's last serve, $y$ (same
- * strategy). Alice would then win $(i - 1) + (x - i) = x - 1$  times and Bob $y
- * - 1$ times. This is suboptimal for Bob, since we know he can win $y$ times by
- * our optimal strategy.
+ * strategy). Alice would then win $(i - 1) + (x - i) = x - 1$  times and Bob
+ * $y-1$ times. This is suboptimal for Bob, since we know he can win $y$ times
+ * by our optimal strategy.
  *
  * Since Alice is on Bob's mercy (she can't stop serving until she runs out of
  * stamina or Bob wins), Bob will choose the optimal strategy and win $y$ times
