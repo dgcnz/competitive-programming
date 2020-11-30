@@ -33,7 +33,9 @@
  * $$2n + 2, 2n + 4, ... , 4n$$
  *
  * This subset of $n$ numbers have a common factor of 2 and are definitely not
- * multiples of each other, so we're good to go.
+ * multiples of each other. If you're not convinced of this last fact, think
+ * that any multiple of one of these numbers will necessarily exceed 4n,
+ * therefore not be in the chosen subset.
  * @endidea
  */
 
