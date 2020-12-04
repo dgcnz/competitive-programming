@@ -4,7 +4,7 @@ mathjax: true
 title: 1455A - Strange Functions
 problem_url: https://codeforces.com/contest/1455/problem/A
 tags: math
-memory_complexity: O(n)
+memory_complexity: O(1)
 time_complexity: O(1)
 ---
 
