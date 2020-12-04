@@ -18,7 +18,7 @@
  * Let's try to prove the forward direction of this assertion.
  *
  * By contradiction, let's assume that there's an array $A$ that contains at
- * least a non-multiple of $a_1$. Let's call that element $a_r.
+ * least a non-multiple of $a_1$. Let's call that element $a_r$.
  *
  * We have that for $x = a_r$:
  *
@@ -32,7 +32,7 @@
  * Since $a_1$ is necessarily the minimum element we can reduce the initial
  * expression:
  *
- * $$((x \% a_1) \% a_2) ... %a_n = x \% a_1$$
+ * $$((x \% a_1) \% a_2) ... \% a_n = x \% a_1$$
  *
  * And since all elements are of the form $a_i = d_i a_1$, we would like to know
  * if the following congruence holds:
