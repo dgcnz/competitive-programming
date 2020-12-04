@@ -10,7 +10,7 @@
  * @thinking_time       5
  * @coding_time         1
  * @time_complexity     O(1)
- * @memory_complexity   O(n)
+ * @memory_complexity   O(1)
  * @idea
  * Observations:
  * 1. $f(f(x))$ is the same as stripping $x$ from all it's trailing zeros.
