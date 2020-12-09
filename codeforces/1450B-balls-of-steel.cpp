@@ -18,8 +18,8 @@
  * The key observation is that if such point exists, then all other points must
  * be at distance $\leq k$ from it, let's call such points *reachable* from $c$.
  *
- * To prove this (informally), assume otherwise: that there's a point $d =
- * $(x_d, y_d)$ that is not reachable from $c$.
+ * To prove this (informally), assume otherwise: that there's a point
+ * $d=(x_d,y_d)$ that is not reachable from $c$.
  *
  * If $d$ is not reachable by any point, then the answer is clearly $-1$.
  *
