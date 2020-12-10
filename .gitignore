@@ -28,4 +28,5 @@ docs/_site/
 docs/_site/*
 **/.jekyll-cache
 notebook/
+own/
 TODO.md

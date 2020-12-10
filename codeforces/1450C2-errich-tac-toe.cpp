@@ -1,7 +1,7 @@
 /** @file
  * @date                2020-12-06
  * @url                 https://codeforces.com/contest/1450/problem/C2
- * @tags                constructive_algorithm
+ * @tags                constructive_algorithm, coloring_argument
  * @status              AC
  * @score               1
  * @difficulty          4
