@@ -20,4 +20,5 @@ docs/
 **/unsolved/
 .jekyll-cache
 notebook/
+own/
 TODO.md
