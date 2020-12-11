@@ -19,15 +19,7 @@
  *
  * $$ dp(r, c) = 1 + min(dp(r + 1, c - 1), dp(r + 1, c), dp(r + 1, c + 1)) $$
  *
- * And the base cases are:
- *
- * $$
- * dp(r, c) == 1 if (r, c) is an asterisk
- * $$
- *
- * $$
- * dp(r, c) == 0 otherwise.
- * $$
+ * if $(r, c) == '*'$.
  * @endidea
  */
 
