@@ -15,7 +15,7 @@
  * For each range $(l, r)$ present in the array, see how many ranges wouldn't be
  * covered and keep the one that yields the minimum answer.
  *
- * To compute $ans_{l, r}, note that we only need to know $ans_l$ and $ans_r$:
+ * To compute $ans_{l, r}$, note that we only need to know $ans_l$ and $ans_r$:
  *
  * $$ans_l = \text{#right endings that are less than } l $$
  *
