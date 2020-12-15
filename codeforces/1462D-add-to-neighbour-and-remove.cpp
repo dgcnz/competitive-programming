@@ -13,7 +13,7 @@
  * @memory_complexity   O(n)
  * @idea
  * Let's say that $b$ is an array reachable from $a$ by applying the described
- * operation such that $b_i = x$ for all $1 \leq i leq k$, where $k \leq n$.
+ * operation such that $b_i = x$ for all $1 \leq i \leq k$, where $k \leq n$.
  * Note that $x$ is completely defined by $k$, so call it $x_k$:
  *
  * $$ x_k =  \frac{\sum_{i = 1}^{n} a_i}{k} $$
