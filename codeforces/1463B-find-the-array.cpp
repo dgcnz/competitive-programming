@@ -17,7 +17,7 @@
  *
  * So, if $b_i = 2^k$, then $2^k \leq a_i \leq 2^{k + 1}$. This tells us that
  * the difference between $a_i$ and $b_i$ is at most $b_i$ (remember that the
- * length of the range $2^k, 2^{k + 1}$ is $2_k$).
+ * length of the range $2^k, 2^{k + 1}$ is $2^k$).
  *
  * Equivalently, $\frac{a_i}{2} \leq b_i \leq a_i$, which tells us that:
  *
