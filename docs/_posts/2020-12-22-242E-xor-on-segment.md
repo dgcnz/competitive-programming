@@ -4,8 +4,8 @@ mathjax: true
 title: 242E - Xor On Segment
 problem_url: https://codeforces.com/contest/242/problem/E
 tags: data_structures, lazy, segment_tree, bitmask
-memory_complexity: O(20 n)
-time_complexity: O(q \log{n})
+memory_complexity: O(n \log{n})
+time_complexity: O(q \log^2{n})
 ---
 
 [Editorial](https://codeforces.com/blog/entry/5837).
@@ -29,10 +29,11 @@ range and the number of set bits ($1$s) in that range.
 - `op`: Standard pair addition
 - `e` : $(0, 0)$
 - `F` : The set of functions $F$ is uniquely determined by a boolean value.
-$F= \{f_0, f_1\}$.
-- `mapping`: $f_1(S)->S$ means applying xor to all the bits denoted by node
-$S$. This is equal to `n - cnt_set`. Note that $f_0$ doesn't change anything.
-- `composition`: $f_j(f_i(S)) = (i ^ j) ^ S $
+$F= (f_0, f_1)$.
+- `mapping`: $f_1(S) \to S$ means applying xor to all the bits denoted by
+node $S$. This is equal to `n - cnt_set`. Note that $f_0$ doesn't change
+anything.
+- `composition`: $f_j(f_i(S)) = (i \oplus j) \oplus S $
 - `id`: $f_0$
 
 
