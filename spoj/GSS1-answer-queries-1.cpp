@@ -1,3 +1,22 @@
+/** @file
+ * @date                2020-03-26
+ * @url                 https://www.spoj.com/problems/GSS1/
+ * @tags                data_structures, segment_tree
+ * @status              AC
+ * @score               2
+ * @difficulty          2
+ * @editorial           yes
+ * @reading_time        -1
+ * @thinking_time       -1
+ * @coding_time         -1
+ * @time_complexity     O(q \log{n})
+ * @memory_complexity   O(n)
+ * @idea
+ * Standard technique described in
+ * [CP-Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#toc-tgt-7).
+ * @endidea
+ */
+
 #include <algorithm>
 #include <climits>
 #include <iostream>
@@ -36,22 +55,6 @@ node combine(node lc, node rc) // check
     return {ls, rs, ss, ts};
 }
 
-void update(int v, int tl, int tr, int pos, int new_val)
-{
-    if (tl == tr)
-        t[v] = {new_val, new_val, new_val, new_val};
-    else
-    {
-        int tm = (tl + tr) / 2;
-        if (pos <= tm)
-            update(v * 2, tl, tm, pos, new_val);
-        else
-            update(v * 2 + 1, tm + 1, tr, pos, new_val);
-
-        t[v] = combine(t[v * 2], t[v * 2 + 1]);
-    }
-}
-
 void build(int a[], int v, int tl, int tr) // check
 {
     if (tl == tr)
@@ -86,7 +89,7 @@ node query(int v, int tl, int tr, int l, int r)
 
 int main(void)
 {
-    int m, l, r, type;
+    int m, l, r;
     cin >> n;
 
     for (int i = 0; i < n; ++i)
@@ -96,11 +99,8 @@ int main(void)
     cin >> m;
     while (m--)
     {
-        cin >> type >> l >> r;
-        if (type == 1)
-            cout << query(1, 0, n - 1, l - 1, r - 1).ss << endl;
-        else
-            update(1, 0, n - 1, l - 1, r); // in this case pos = l, new_val = r
+        cin >> l >> r;
+        cout << query(1, 0, n - 1, l - 1, r - 1).ss << endl;
     }
 
     return 0;
