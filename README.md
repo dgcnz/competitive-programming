@@ -1,10 +1,10 @@
 # Solutions to Competitive Programming problems
 
-[![Codeforces](https://img.shields.io/badge/Codeforces-281-yellow.svg)](https://shields.io/)
-[![AtCoder](https://img.shields.io/badge/AtCoder-88-black.svg)](https://shields.io/)
-[![CSES](https://img.shields.io/badge/CSES-109-grey.svg)](https://shields.io/)
-[![SPOJ](https://img.shields.io/badge/SPOJ-21-blue.svg)](https://shields.io/)
-[![UVa](https://img.shields.io/badge/UVa-34-red.svg)](https://shields.io/)
+[![Codeforces](https://img.shields.io/badge/Codeforces-312-yellow.svg)](https://shields.io/)
+[![AtCoder](https://img.shields.io/badge/AtCoder-125-black.svg)](https://shields.io/)
+[![CSES](https://img.shields.io/badge/CSES-110-grey.svg)](https://shields.io/)
+[![SPOJ](https://img.shields.io/badge/SPOJ-23-blue.svg)](https://shields.io/)
+[![UVa](https://img.shields.io/badge/UVa-44-red.svg)](https://shields.io/)
 
 
 This repository is personal, made public in the hope that someone find it useful.

@@ -1,3 +1,21 @@
+/** @file
+ * @date                2020-04-04
+ * @url                 https://www.spoj.com/problems/HORRIBLE/
+ * @tags                data_structures, segment_tree, lazy_propagation
+ * @status              AC
+ * @score               2
+ * @difficulty          2
+ * @editorial           yes
+ * @reading_time        -1
+ * @thinking_time       -1
+ * @coding_time         -1
+ * @time_complexity     O(q \log{n})
+ * @memory_complexity   O(n)
+ * @idea
+ * Standard range query, range update, Sum Segment Tree.
+ * @endidea
+ */
+
 #include <cstring>
 #include <iostream>
 
