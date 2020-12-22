@@ -1,13 +1,15 @@
 ---
 layout: post
 mathjax: true
-title: gss1 - Answer Queries 1
-problem_url: None
-tags: None
-memory_complexity: None
-time_complexity: None
+title: GSS1 - Answer Queries 1
+problem_url: https://www.spoj.com/problems/GSS1/
+tags: data_structures, segment_tree
+memory_complexity: O(n)
+time_complexity: O(q \log{n})
 ---
 
+Standard technique described in
+[CP-Algorithms](https://cp-algorithms.com/data_structures/segment_tree.html#toc-tgt-7).
 
 
 {% if page.time_complexity != "None" %}

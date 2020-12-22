@@ -1,13 +1,14 @@
 ---
 layout: post
 mathjax: true
-title: horrible - Horrible Queries
-problem_url: None
-tags: None
-memory_complexity: None
-time_complexity: None
+title: HORRIBLE - Horrible Queries
+problem_url: https://www.spoj.com/problems/HORRIBLE/
+tags: data_structures, segment_tree, lazy_propagation
+memory_complexity: O(n)
+time_complexity: O(q \log{n})
 ---
 
+Standard range query, range update, Sum Segment Tree.
 
 
 {% if page.time_complexity != "None" %}

@@ -1,12 +1,14 @@
 ---
 layout: post
 mathjax: true
-title: gss3 - Answer Queries 3
-problem_url: None
-tags: None
-memory_complexity: None
-time_complexity: None
+title: GSS3 - Answer Queries 3
+problem_url: https://www.spoj.com/problems/GSS3/
+tags: data_structures, segment_tree
+memory_complexity: O(n)
+time_complexity: O(q \log{n})
 ---
+
+GSS1 with update queries.
 
 
 
