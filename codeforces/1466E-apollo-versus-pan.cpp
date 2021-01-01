@@ -12,7 +12,9 @@
  * @time_complexity     O(n \log{x_{max}})
  * @memory_complexity   O(n)
  * @idea
+ *
  * [Editorial](https://codeforces.com/blog/entry/86126) is pretty cool.
+ *
  * @endidea
  */
 
