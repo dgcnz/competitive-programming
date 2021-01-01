@@ -1,6 +1,6 @@
 /** @file
- * @date                https://codeforces.com/problemset/problem/546/A
- * @url                 https://url.com
+ * @date                2020-12-28
+ * @url                 https://codeforces.com/problemset/problem/546/A
  * @tags                easy, summation
  * @status              AC
  * @score               0
