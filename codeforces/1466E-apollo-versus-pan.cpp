@@ -1,4 +1,4 @@
-/* @file
+/** @file
  * @date                2020-12-30
  * @url                 https://codeforces.com/contest/1466/problem/E
  * @tags                math, bitmask
