@@ -23,7 +23,7 @@
  *
  * Or equivalently:
  *
- * $$ | y_2 - y_1 |  \leq y_2 - y_1 $$
+ * $$ | y_2 - y_1 |  \leq x_2 - x_1 $$
  *
  * Try all pairs and check if such condition holds. Don't forget to enforce an
  * order to ease implementation (sort points by $x$-coordinate).
