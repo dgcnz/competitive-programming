@@ -9,7 +9,7 @@
  * @reading_time        2
  * @thinking_time       60
  * @coding_time         30
- * @time_complexity     O(n \log{a_max})
+ * @time_complexity     O(n \log{a_{max}})
  * @memory_complexity   O(n)
  * @idea
  * We can do some algebra using the fact that `ab = lcm(a, b) *  gcd(a, b)` to
@@ -32,7 +32,7 @@
  *
  * Otherwise, note that if `cnt[ai']` is even, all such elements will be
  * replaced by a perfectly matched number (so they will become  `ai'= 1`), and
- * if it is odd, then all such numbers will keep needing to me matched.
+ * if it is odd, then all such numbers will still need to be matched.
  *
  * @endidea
  */
