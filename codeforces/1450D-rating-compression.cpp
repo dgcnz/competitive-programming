@@ -1,5 +1,5 @@
 /** @file
- * @date                2020-12-20
+ * @date                2021-01-07
  * @url                 https://codeforces.com/problemset/problem/1450/D
  * @tags                two_pointers, greedy, segment_tree, implementation
  * @status              AC
