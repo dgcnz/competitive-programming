@@ -8,7 +8,7 @@ memory_complexity: O(n)
 time_complexity: O(n)
 ---
 
-Test for $a_i \leq 10^{18} / \text{ans}$.
+Test for $a_i \leq \frac{10^{18}}{\text{ans}}$.
 
 
 {% if page.time_complexity != "None" %}
