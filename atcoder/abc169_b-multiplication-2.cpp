@@ -12,7 +12,7 @@
  * @time_complexity     O(n)
  * @memory_complexity   O(n)
  * @idea
- * Test for $a_i \leq 10^{18} / \text{ans}$.
+ * Test for $a_i \leq frac{10^{18}}{\text{ans}}$.
  * @endidea
  */
 
