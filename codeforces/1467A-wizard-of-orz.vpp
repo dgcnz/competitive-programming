@@ -1,0 +1,62 @@
+/** @file
+ * @date                2021-01-08
+ * @url                 https://codeforces.com/contest/1467/problem/A
+ * @tags                easy, observation
+ * @status              AC
+ * @score               0
+ * @difficulty          1
+ * @editorial           no
+ * @reading_time        1
+ * @thinking_time       3
+ * @coding_time         6
+ * @time_complexity     O(n)
+ * @memory_complexity   O(n)
+ * @idea
+ * It is always optimal to pause at the second position.
+ * @endidea
+ */
+
+#ifdef DBG_MACRO_NO_WARNING
+#include <dbg.h>
+#else
+#define dbg(...) ((void)0)
+#endif
+#include <bits/stdc++.h>
+#define all(c) begin(c), end(c)
+#define isz(c) (int)(c).size()
+
+using namespace std;
+using ll = long long;
+using ii = pair<int, int>;
+using vi = vector<int>;
+
+string solve(int n)
+{
+    if (n == 1)
+        return "9";
+    if (n == 2)
+        return "98";
+
+    string ans(n, ' ');
+    ans[0] = '9', ans[1] = '8';
+    for (int i = 2; i <= n; ++i)
+    {
+        ans[i] = ((9 + i - 2) % 10) + '0';
+    }
+    return ans;
+}
+
+int main(void)
+{
+    ios::sync_with_stdio(false), cin.tie(NULL);
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+        cout << solve(n) << endl;
+    }
+    return 0;
+}
