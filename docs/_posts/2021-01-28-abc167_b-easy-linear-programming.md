@@ -1,0 +1,54 @@
+---
+layout: post
+mathjax: true
+title: abc167_b - Easy Linear Programming
+problem_url: None
+tags: None
+memory_complexity: None
+time_complexity: None
+---
+
+
+
+{% if page.time_complexity != "None" %}
+Time complexity: ${{ page.time_complexity }}$
+{% endif %}
+
+{% if page.memory_complexity != "None" %}
+Memory complexity: ${{ page.memory_complexity }}$
+{% endif %}
+
+<details>
+<summary>
+<p style="display:inline">Click to show code.</p>
+</summary>
+```cpp
+{% raw %}
+using namespace std;
+using ll = long long;
+ll solve(int a, int b, int c, int k)
+{
+    ll ans = 0;
+    ans += min(a, k);
+    k -= min(a, k);
+    if (k == 0)
+        return ans;
+    k -= min(b, k);
+    if (k == 0)
+        return ans;
+    ans -= min(c, k);
+    k -= min(c, k);
+    return ans;
+}
+int main(void)
+{
+    int a, b, c, k;
+    cin >> a >> b >> c >> k;
+    cout << solve(a, b, c, k) << endl;
+    return 0;
+}
+
+{% endraw %}
+```
+</details>
+
