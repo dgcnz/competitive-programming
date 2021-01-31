@@ -24,11 +24,11 @@
  *
  * This leads us to formulate the following dp:
  *
- * $dp(k) = dp(k - 1) + |{a_j > a_{k - 1}}| - |{a_j < a_{k - 1}}|$
+ * $$dp(k) = dp(k - 1) + |\{a_j > a_{k - 1}\}| - |\{a_j < a_{k - 1}\}|$$
  *
  * Since $a$ is a permutation of $0... n - 1$:
- * 1. $|{a_j > a_{k - 1}}| = n - 1 - a_{k - 1}$
- * 2. $|{a_j < a_{k - 1}}| = a_{k - 1}$
+ * 1. $|\{a_j > a_{k - 1}\}| = n - 1 - a_{k - 1}$
+ * 2. $|\{a_j < a_{k - 1}\}| = a_{k - 1}$
  *
  * Which would result into:
  * $dp(k) = dp(k - 1) + n - 1 - 2 a_{k - 1}$
