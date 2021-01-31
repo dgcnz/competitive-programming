@@ -1,0 +1,6 @@
+clang
+-std=c++17
+-DDBG_MACRO_NO_WARNING
+-I/home/dgcnz/development/resources/cppinclude
+-I/home/dgcnz/development/algorithms/ac-library
+-I/home/dgcnz/development/algorithms/cp-library
