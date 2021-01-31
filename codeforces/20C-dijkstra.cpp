@@ -1,19 +1,18 @@
 /** @file
  * @date                2021-01-28
- * @url                 https://url.com
+ * @url                 https://codeforces.com/problemset/problem/20/C
  * @tags                math, sorting
  * @status              AC
- * @score               0
- * @difficulty          0
+ * @score               3
+ * @difficulty          1
  * @editorial           no
- * @reading_time        000
- * @thinking_time       000
- * @coding_time         000
- * @time_complexity     O(n)
- * @memory_complexity   O(n)
+ * @reading_time        1
+ * @thinking_time       10
+ * @coding_time         20
+ * @time_complexity     O((n + m) \log{n})
+ * @memory_complexity   O(n + m)
  * @idea
- *
- *
+ * Yes, dijkstra.
  * @endidea
  */
 

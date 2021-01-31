@@ -1,19 +1,18 @@
 /** @file
  * @date                2021-01-30
- * @url                 https://url.com
- * @tags                math, sorting
+ * @url                 https://cses.fi/problemset/task/2134
+ * @tags                data_structures, trees, hld, segment_tree
  * @status              AC
- * @score               0
- * @difficulty          0
+ * @score               3
+ * @difficulty          1
  * @editorial           no
- * @reading_time        000
- * @thinking_time       000
- * @coding_time         000
- * @time_complexity     O(n)
+ * @reading_time        1
+ * @thinking_time       1
+ * @coding_time         3
+ * @time_complexity     O(q \log{n})
  * @memory_complexity   O(n)
  * @idea
- *
- *
+ * Same as problem Path Queries but with maximum as the segment tree operation.
  * @endidea
  */
 
