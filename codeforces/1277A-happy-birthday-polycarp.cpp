@@ -1,0 +1,42 @@
+#ifdef DBG_MACRO_NO_WARNING
+#include <dbg.h>
+#else
+#define dbg(...) ((void)0)
+#endif
+#include <bits/stdc++.h>
+#include <cplib/utils/io>
+#define all(c) begin(c), end(c)
+#define isz(c) (int)(c).size()
+
+using namespace std;
+using namespace cplib;
+using ll = long long;
+using ii = pair<int, int>;
+using vi = vector<int>;
+
+int main(void)
+{
+    ios::sync_with_stdio(false), cin.tie(NULL);
+    int t;
+    cin >> t;
+    while (t--)
+    {
+        ll  n;
+        int ans = 0;
+        cin >> n;
+        for (int d = 1; d <= 9; ++d)
+        {
+            ll  x   = d;
+            int cnt = 0;
+            while (x <= n)
+            {
+                x *= 10;
+                x += d;
+                cnt++;
+            }
+            ans += cnt;
+        }
+        cout << ans << endl;
+    }
+    return 0;
+}
