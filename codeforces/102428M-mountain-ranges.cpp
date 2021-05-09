@@ -17,17 +17,19 @@ using vi = vector<int>;
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
-    int n;
-    cin >> n;
+    int n, x;
+    cin >> n >> x;
     vi a(n);
     read(all(a));
 
-    sort(all(a));
-
-    int ans = min(a[n - 1] - 1, ((int)1e6 - a[0]));
+    int ans = 1;
     for (int i = 0; i < n - 1; ++i)
-        ans = min(ans, max(a[i] - 1, (int)1e6 - a[i + 1]));
-
+    {
+        int j = i + 1;
+        while (j < n and a[j] - a[j - 1] <= x)
+            ++j;
+        ans = max(ans, j - i);
+    }
     cout << ans << endl;
     return 0;
 }
