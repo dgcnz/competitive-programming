@@ -1,84 +1,78 @@
 #ifdef DBG_MACRO_NO_WARNING
 #include <dbg.h>
+#else
+#define dbg(...) ((void)0)
 #endif
 #include <bits/stdc++.h>
-#define all(c) c.begin(), c.end()
-#define isz(c) (int)c.size()
+#include <cplib/utils/io>
+#define all(c) begin(c), end(c)
+#define isz(c) (int)(c).size()
 
 using namespace std;
+using namespace cplib;
 using ll = long long;
 using ii = pair<int, int>;
 using vi = vector<int>;
 
-template <typename InputIterator,
-          typename T = typename iterator_traits<InputIterator>::value_type>
-void read_n(InputIterator it, int n)
+string solve(string s, int n)
 {
-    copy_n(istream_iterator<T>(cin), n, it);
-}
-
-template <typename InputIterator,
-          typename T = typename iterator_traits<InputIterator>::value_type>
-void write(InputIterator first, InputIterator last, const char *delim = "\n")
-{
-    copy(first, last, ostream_iterator<T>(cout, delim));
-}
-
-int const NMAX = 1e3 + 11;
-int const XMAX = 1e3 + 11;
-
-int    n, x;
-string s;
-bool   dp[NMAX][XMAX], vis[NMAX][XMAX];
-char   ans[NMAX];
-
-bool possible(int i, int rem)
-{
-    if (i == n)
-        return rem == 0;
-
-    auto &cur = dp[i][rem];
-    if (vis[i][rem])
-        return cur;
-
-    vis[i][rem] = true;
-
-    if (s[i] == '?')
+    int                 m   = s.size();
+    int const           INF = 10;
+    vector<vector<int>> dp(m + 1, vector<int>(n, INF));
+    dp[m][0] = 0;
+    vector<ll> pten(m);
+    pten[m - 1] = 1;
+    for (int i = m - 1; i >= 0; --i)
     {
-        for (int d = (i == 0); d <= 9; ++d)
+        if (i != m - 1)
+            pten[i] = (10 * pten[i + 1]) % n;
+
+        for (int r = 0; r < n; ++r)
         {
-            ans[i] = d + '0';
-            if (possible(i + 1, (10 * rem + d) % x))
-                return cur = true;
-            ans[i] = 0;
+            if (s[i] != '?')
+            {
+                int   d   = s[i] - '0';
+                auto &ans = dp[i][(r + pten[i] * d) % n];
+                if (dp[i + 1][r] != INF)
+                    ans = min(ans, d);
+            }
+            else
+            {
+                for (int d = 0; d < 10; ++d)
+                {
+                    if (i == 0 and d == 0)
+                        continue;
+                    auto &ans = dp[i][(r + pten[i] * d) % n];
+                    if (dp[i + 1][r] != INF)
+                        ans = min(ans, d);
+                }
+            }
         }
     }
-    else
+    string ans(m, '?');
+    ll     acc = 0;
+    if (dp[0][0] == INF)
+        return "*";
+
+    ans[0] = '0' + dp[0][0];
+    for (int i = 1; i < m; ++i)
     {
-        int d  = s[i] - '0';
-        ans[i] = d + '0';
-        if (possible(i + 1, (10 * rem + d) % x))
-            return cur = true;
-        ans[i] = 0;
+        int best = INF;
+        acc      = (acc + (ans[i - 1] - '0') * pten[i - 1]) % n;
+        for (int r = 0; r < n; ++r)
+            if (((r + acc) % n) == 0)
+                best = min(best, dp[i][r]);
+        ans[i] = '0' + best;
     }
-    return cur = false;
+    return ans;
 }
 
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
-
-    while (cin >> s >> x)
-    {
-        n = isz(s);
-        memset(dp, 0, sizeof dp);
-        memset(vis, 0, sizeof vis);
-        memset(ans, 0, sizeof ans);
-        if (possible(0, 0))
-            write(ans, ans + n, ""), cout << endl;
-        else
-            cout << "*" << endl;
-    }
-
+    int    n;
+    string s;
+    cin >> s >> n;
+    cout << solve(s, n) << endl;
     return 0;
 }
