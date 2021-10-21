@@ -1,15 +1,13 @@
 #include <bits/stdc++.h>
 
 using namespace std;
-using di = deque<int>;
-using vi = vector<int>;
 
 int main(void)
 {
     int n;
     cin >> n;
-    di cards(n);
-    vi ans(2, 0);
+    deque<int>  cards(n);
+    vector<int> ans(2, 0);
 
     for (auto &x : cards)
         cin >> x;
