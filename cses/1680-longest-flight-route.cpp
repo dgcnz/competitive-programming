@@ -1,71 +1,64 @@
+#ifdef DBG_MACRO_NO_WARNING
+#include <dbg.h>
+#else
+#define dbg(...) ((void)0)
+#endif
 #include <bits/stdc++.h>
+#include <cplib/graph/graph>
+#include <cplib/graph/toposort>
+#include <cplib/utils/io>
+#include <cplib/utils/misc>
+#define all(c) begin(c), end(c)
+#define isz(c) (int)(c).size()
 
 using namespace std;
+using namespace cplib;
+using ll = long long;
+using ii = pair<int, int>;
 using vi = vector<int>;
-
-const int NMAX = 1e5 + 11;
-
-int  n, m;
-bool visited[NMAX];
-vi   g[NMAX], gi[NMAX], vsorted;
-
-void toposort(int u)
-{
-    for (auto v : g[u])
-    {
-        if (visited[v])
-            continue;
-        toposort(v);
-    }
-    visited[u] = true;
-    vsorted.push_back(u);
-}
 
 int main(void)
 {
-    ios_base::sync_with_stdio(false), cin.tie(NULL);
-    int u, v;
+    ios::sync_with_stdio(false), cin.tie(NULL);
+    int n, m;
     cin >> n >> m;
+
+    UndirectedGraph g(n), gi(n);
+
     for (int i = 0; i < m; ++i)
     {
-        cin >> u >> v;
-        g[u].push_back(v);
-        gi[v].push_back(u);
+        int u, v;
+        cin >> u >> v, u--, v--;
+        g.add_edge(u, v);
+        gi.add_edge(v, u);
     }
 
-    toposort(1);
-    if (not visited[n])
-    {
+    int const   INF   = 1e9;
+    vector<int> order = toposort(g, 0);
+    vector<int> dp(n, -INF), prv(n);
+    dp[0] = 0, prv[0] = 0;
+    if (order.empty() or count(all(order), n - 1) == 0)
         cout << "IMPOSSIBLE" << endl;
-    }
     else
     {
-        reverse(vsorted.begin(), vsorted.end());
-        vi dp(n + 1, 0), pre(n + 1, 0), ans;
-        for (auto v : vsorted)
-        {
+        for (auto v : order)
             for (auto u : gi[v])
-            {
-                if (visited[u] and dp[u] + 1 > dp[v])
-                {
-                    dp[v]  = dp[u] + 1;
-                    pre[v] = u;
-                }
-            }
-        }
+                if (dp[u] + 1 > dp[v])
+                    dp[v] = dp[u] + 1, prv[v] = u;
 
-        cout << dp[n] + 1 << endl;
+        cout << dp[n - 1] + 1 << endl;
 
-        int u = n;
+        vector<int> ans;
+        int         u = n - 1;
         do
         {
             ans.push_back(u);
-            u = pre[u];
-        } while (pre[u]);
+            u = prv[u];
+        } while (prv[u] != u);
         ans.push_back(u);
-
-        for_each(ans.rbegin(), ans.rend(), [](int x) { cout << x << " "; }),
-            cout << endl;
+        reverse(all(ans));
+        increment(all(ans));
+        write(all(ans), " "), cout << endl;
     }
 
     return 0;

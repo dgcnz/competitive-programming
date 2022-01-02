@@ -7,7 +7,6 @@
 #include <cplib/utils/io>
 #include <cplib/utils/misc>
 #define all(c) begin(c), end(c)
-#define rall(c) rbegin(c), rend(c)
 #define isz(c) (int)(c).size()
 
 using namespace std;
@@ -23,6 +22,23 @@ int main(void)
     cin >> t;
     while (t--)
     {
+        ll n;
+        cin >> n;
+        if (n % 2 == 0)
+        {
+            cout << 2 << " " << n - 3 << " " << 1 << "\n";
+        }
+        else
+        {
+            for (ll a = 2; a < n - 1; ++a)
+            {
+                if (gcd(a, n - a - 1) == 1)
+                {
+                    cout << a << " " << n - a - 1 << " " << 1 << "\n";
+                    break;
+                }
+            }
+        }
     }
     return 0;
 }

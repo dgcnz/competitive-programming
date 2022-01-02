@@ -7,7 +7,6 @@
 #include <cplib/utils/io>
 #include <cplib/utils/misc>
 #define all(c) begin(c), end(c)
-#define rall(c) rbegin(c), rend(c)
 #define isz(c) (int)(c).size()
 
 using namespace std;
@@ -23,6 +22,16 @@ int main(void)
     cin >> t;
     while (t--)
     {
+        int n, m;
+        cin >> n >> m;
+        if (n == 1 and m == 1)
+            cout << 0 << endl;
+        else if (n == 1 or m == 1)
+            cout << 1 << endl;
+        else
+        {
+            cout << 2 << endl;
+        }
     }
     return 0;
 }

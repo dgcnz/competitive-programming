@@ -24,6 +24,26 @@ void write(InputIterator first, InputIterator last, const char *delim = "\n")
     copy(first, last, ostream_iterator<T>(cout, delim));
 }
 
+int solve(vector<vi> t, int k)
+{
+    int n = t.size();
+
+    vi order(n);
+    for (int i = 0; i < n; ++i)
+        order[i] = i;
+
+    int ans = 0;
+    do
+    {
+        int cur = 0;
+        for (int i = 0; i < n; ++i)
+            cur += t[order[i]][order[(i + 1) % n]];
+        ans += cur == k;
+    } while (next_permutation(order.begin() + 1, order.end()));
+
+    return ans;
+}
+
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
@@ -34,19 +54,6 @@ int main(void)
     for (auto &ti : t)
         read_n(ti.begin(), n);
 
-    vi a(n);
-    for (int i = 0; i < n; ++i)
-        a[i] = i;
-
-    int ans = 0;
-    do
-    {
-        int cur = 0;
-        for (int i = 0; i < n; ++i)
-            cur += t[a[i]][a[(i + 1) % n]];
-        ans += cur == k;
-    } while (next_permutation(a.begin() + 1, a.end()));
-
-    cout << ans << endl;
+    cout << solve(t, k) << endl;
     return 0;
 }

@@ -7,7 +7,6 @@
 #include <cplib/utils/io>
 #include <cplib/utils/misc>
 #define all(c) begin(c), end(c)
-#define rall(c) rbegin(c), rend(c)
 #define isz(c) (int)(c).size()
 
 using namespace std;
@@ -19,10 +18,23 @@ using vi = vector<int>;
 int main(void)
 {
     ios::sync_with_stdio(false), cin.tie(NULL);
-    int t;
-    cin >> t;
-    while (t--)
+    int n, L, a;
+    cin >> n >> L >> a;
+
+    int ct  = 0;
+    int ans = 0;
+    for (int i = 0; i < n; ++i)
     {
+        int ti, li;
+        cin >> ti >> li;
+        int free_time = ti - ct;
+        ans += free_time / a;
+        ct = ti + li;
     }
+
+    if (ct <= L)
+        ans += (L - ct) / a;
+
+    cout << ans << endl;
     return 0;
 }

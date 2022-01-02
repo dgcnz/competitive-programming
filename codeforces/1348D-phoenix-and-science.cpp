@@ -7,7 +7,6 @@
 #include <cplib/utils/io>
 #include <cplib/utils/misc>
 #define all(c) begin(c), end(c)
-#define rall(c) rbegin(c), rend(c)
 #define isz(c) (int)(c).size()
 
 using namespace std;
@@ -23,6 +22,26 @@ int main(void)
     cin >> t;
     while (t--)
     {
+        ll n;
+        cin >> n;
+
+        multiset<int> nbac;
+
+        ll x = 1, sum = 0;
+        while (sum + x <= n)
+        {
+            nbac.insert(x);
+            sum += x;
+            x *= 2;
+        }
+        if (sum < n)
+            nbac.insert(n - sum);
+
+        vector<int> ans(all(nbac));
+        cout << (int)ans.size() - 1 << endl;
+        for (int i = 1; i < (int)ans.size(); ++i)
+            cout << ans[i] - ans[i - 1] << ' ';
+        cout << endl;
     }
     return 0;
 }

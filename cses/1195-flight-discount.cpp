@@ -1,65 +1,42 @@
 #include <bits/stdc++.h>
+#include <cplib/graph/dijkstra>
+#include <cplib/graph/graph>
 
 using namespace std;
-using ll   = long long;
-using vll  = vector<ll>;
-using vii  = vector<pair<int, int>>;
-using viii = vector<array<int, 3>>;
+using namespace cplib;
 
-const ll INF = 1e16;
-
-vll dijkstra(vii g[], int n, int src)
+long long solve(int n, vector<tuple<int, int, int>> edges)
 {
-    vector<long long>             distance(n + 1, INF);
-    vector<bool>                  processed(n + 1, false);
-    priority_queue<pair<ll, int>> q;
-
-    distance[src] = 0;
-
-    q.push({0, src});
-    while (!q.empty())
+    Graph<long long> g(n), gr(n);
+    for (auto [u, v, c] : edges)
     {
-        int u = q.top().second;
-        q.pop();
-        if (processed[u])
-            continue;
-        processed[u] = true;
-        for (auto [v, c] : g[u])
-        {
-            if (distance[u] + c < distance[v])
-            {
-                distance[v] = distance[u] + c;
-                q.push({-distance[v], v});
-            }
-        }
+        g.add_edge(u, v, c);
+        gr.add_edge(v, u, c);
     }
 
-    return distance;
+    Dijkstra<long long> from_src(g);
+    Dijkstra<long long> from_dst(gr);
+
+    from_src(0);     // running dijkstra on G, from 0
+    from_dst(n - 1); // running dijkstra on Gr, from n - 1
+
+    long long const INF = 1e18;
+    long long       ans = INF;
+    for (auto [u, v, c] : edges)
+        if (from_src.is_reachable(u) and from_dst.is_reachable(v))
+            ans = min(ans, from_src.distance(u) + c / 2 + from_dst.distance(v));
+    return ans;
 }
 
 int main(void)
 {
-    int n, m, u, v, c;
+    int n, m;
     cin >> n >> m;
 
-    vii  g[n + 1], gi[n + 1];
-    viii edges(m);
+    vector<tuple<int, int, int>> edges(m);
+    for (auto &[u, v, c] : edges)
+        cin >> u >> v >> c, u--, v--;
 
-    for (int i = 0; i < m; ++i)
-    {
-        cin >> u >> v >> c;
-        g[u].emplace_back(v, c);
-        gi[v].emplace_back(u, c);
-        edges[i] = {u, v, c};
-    }
-
-    auto from_src = dijkstra(g, n, 1);
-    auto to_dst   = dijkstra(gi, n, n);
-
-    ll ans = INF;
-    for (auto [u, v, c] : edges)
-        ans = min(ans, from_src[u] + c / 2 + to_dst[v]);
-
-    cout << ans << endl;
+    cout << solve(n, edges) << endl;
     return 0;
 }
