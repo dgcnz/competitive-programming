@@ -46,7 +46,7 @@ pair<vector<int>, vector<int>> solve(vector<ii> a)
     for (auto ix : sigma)
     {
         auto [l, r]   = a[ix];
-        contained[ix] = fwd.sum(r, m) > 0;
+        contained[ix] = fwd.sum(r, m);
         fwd.add(r, 1);
     }
 
@@ -56,7 +56,7 @@ pair<vector<int>, vector<int>> solve(vector<ii> a)
     for (auto ix : sigma)
     {
         auto [l, r]  = a[ix];
-        contains[ix] = bwd.sum(0, r + 1) > 0;
+        contains[ix] = bwd.sum(0, r + 1);
         bwd.add(r, 1);
     }
 

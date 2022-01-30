@@ -22,7 +22,8 @@ int solve(vector<string> lab, int sr, int sc, int x, int y)
     auto cost  = [&](ii u, ii v) { return u.second + 1 == v.second; };
     ImplicitGridGraph<int> g(lab, valid, cost);
 
-    BFS01<ImplicitGridGraph, int> bfs01(g);
+    int const                          INF = 1e9;
+    BFS01<int, INF, ImplicitGridGraph> bfs01(g);
     bfs01(g.id(sr, sc));
     int n = lab.size(), m = lab[0].size(), ans = 0;
     for (int r = 0; r < n; ++r)
