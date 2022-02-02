@@ -4,6 +4,7 @@
 #define dbg(...) ((void)0)
 #endif
 #include <bits/stdc++.h>
+#include <cplib/math/misc>
 #include <cplib/utils/io>
 #include <cplib/utils/misc>
 #define all(c) begin(c), end(c)
