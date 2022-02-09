@@ -19,8 +19,7 @@ using vi = vector<int>;
 
 string solve(string s)
 {
-    int n = s.size();
-
+    int  n        = s.size();
     auto make_ans = [&](int i)
     {
         string a(s.begin(), s.begin() + i + 1);
@@ -28,20 +27,12 @@ string solve(string s)
         return a + b;
     };
 
-    int    i   = 0;
-    string ans = make_ans(n - 1);
-    while (i + 1 < n)
-    {
-        ans = min(ans, make_ans(i));
-        if (s[i + 1] == s[i])
-        {
-            int j = i + 2;
-            while (j < n and s[i] == s[j])
-                j++;
-            i = j - 2;
-        }
+    int i = 1;
+    while (i < n and s[i] <= s[i - 1])
         ++i;
-    }
+
+    string ans = make_ans(0);
+    ans        = min(ans, make_ans(i - 1));
     return ans;
 }
 
@@ -57,7 +48,7 @@ int main(void)
         string s;
         cin >> s;
 
-        cout << solve(s) << endl;
+        cout << solve(s) << '\n';
     }
     return 0;
 }
