@@ -4,7 +4,7 @@
 #define dbg(...) ((void)0)
 #endif
 #include <bits/stdc++.h>
-#include <cplib/math/utils>
+#include <cplib/math/misc>
 #include <cplib/utils/io>
 #define all(c) begin(c), end(c)
 #define isz(c) (int)(c).size()
